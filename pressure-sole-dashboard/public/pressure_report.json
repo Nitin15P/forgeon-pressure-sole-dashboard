@@ -1,13 +1,14 @@
 {
   "athlete": {
-    "name": "Sample Bowler",
+    "name": "Aryaveer Singh",
+    "player_id": "AS-1025",
     "height_cm": 185,
     "weight_kg": 82,
     "dominant_arm": "right",
     "bowling_style": "fast"
   },
   "session_meta": {
-    "session_id": "test_phase_specific",
+    "session_id": "AVS-SESSION-001",
     "surface": "indoor",
     "notes": "replace with real"
   },

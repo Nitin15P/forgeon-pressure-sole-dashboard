@@ -2,6 +2,7 @@
 
 export interface Athlete {
     name: string;
+    player_id?: string;
     height_cm: number;
     weight_kg: number;
     dominant_arm: string;

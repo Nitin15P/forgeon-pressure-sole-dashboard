@@ -47,7 +47,18 @@ const SessionSummary: React.FC<SessionSummaryProps> = ({ report, stanceMetrics, 
             <div className="card mb-lg" style={{ background: 'linear-gradient(to right, #ffffff, var(--bg-secondary))', borderLeft: '4px solid var(--primary)' }}>
                 <div className="flex justify-between items-center mb-md">
                     <h2 className="card-title" style={{ margin: 0 }}>Athlete Profile</h2>
-                    <div className="text-sm font-bold" style={{ color: 'var(--primary)', opacity: 0.8 }}>PLAYER ID: {athlete.name.split(' ').map(n => n[0]).join('').toUpperCase()}-{Math.floor(Math.random() * 1000)}</div>
+                    <div className="text-sm font-bold" style={{ color: 'var(--primary)', opacity: 0.8 }}>
+                        PLAYER ID: {athlete.player_id || (() => {
+                            const initials = athlete.name.split(' ').map(n => n[0]).join('').toUpperCase();
+                            let hash = 0;
+                            for (let i = 0; i < athlete.name.length; i++) {
+                                hash = ((hash << 5) - hash) + athlete.name.charCodeAt(i);
+                                hash |= 0;
+                            }
+                            const stableNum = Math.abs(hash % 1000);
+                            return `${initials}-${stableNum}`;
+                        })()}
+                    </div>
                 </div>
                 <div className="flex items-center gap-xl" style={{ padding: '4px 0' }}>
                     <div style={{ flex: '1.2' }}>
@@ -91,19 +102,7 @@ const SessionSummary: React.FC<SessionSummaryProps> = ({ report, stanceMetrics, 
                         <div className="text-sm">
                             <span className="text-muted">Session ID: </span>
                             <span className="font-bold" style={{ color: 'var(--primary-orange)', letterSpacing: '1px', fontSize: '0.9rem' }}>
-                                {(() => {
-                                    const id = session_meta.session_id;
-                                    const name = athlete.name || 'Athlete';
-                                    const initials = name.split(' ').map(n => n[0]).join('').toUpperCase().slice(0, 3);
-
-                                    let hash = 0;
-                                    for (let i = 0; i < id.length; i++) {
-                                        hash = ((hash << 5) - hash) + id.charCodeAt(i);
-                                        hash |= 0;
-                                    }
-                                    const hex = (hash >>> 0).toString(16).toUpperCase().slice(-4);
-                                    return `PS-${initials}-${hex}`;
-                                })()}
+                                {session_meta.session_id}
                             </span>
                         </div>
                         <div className="text-sm">
