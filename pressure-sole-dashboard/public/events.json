@@ -1,0 +1,1552 @@
+{
+  "balls": [
+    {
+      "ball_id": 1,
+      "events": {
+        "Left": [
+          {
+            "stance_id": 1,
+            "foot": "Left",
+            "ic_ts_ms": 15877,
+            "to_ts_ms": 16022,
+            "ct_s": 0.145,
+            "peak_ts_ms": 15952,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Left",
+            "ic_ts_ms": 16477,
+            "to_ts_ms": 16642,
+            "ct_s": 0.165,
+            "peak_ts_ms": 16562,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Left",
+            "ic_ts_ms": 16782,
+            "to_ts_ms": 16967,
+            "ct_s": 0.185,
+            "peak_ts_ms": 16882,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Left",
+            "ic_ts_ms": 17342,
+            "to_ts_ms": 17557,
+            "ct_s": 0.215,
+            "peak_ts_ms": 17452,
+            "merged_from": []
+          }
+        ],
+        "Right": [
+          {
+            "stance_id": 1,
+            "foot": "Right",
+            "ic_ts_ms": 15602,
+            "to_ts_ms": 15742,
+            "ct_s": 0.14,
+            "peak_ts_ms": 15662,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Right",
+            "ic_ts_ms": 16157,
+            "to_ts_ms": 16322,
+            "ct_s": 0.165,
+            "peak_ts_ms": 16237,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Right",
+            "ic_ts_ms": 17077,
+            "to_ts_ms": 17282,
+            "ct_s": 0.205,
+            "peak_ts_ms": 17177,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Right",
+            "ic_ts_ms": 17727,
+            "to_ts_ms": 17872,
+            "ct_s": 0.145,
+            "peak_ts_ms": 17812,
+            "merged_from": []
+          }
+        ]
+      }
+    },
+    {
+      "ball_id": 2,
+      "events": {
+        "Left": [
+          {
+            "stance_id": 1,
+            "foot": "Left",
+            "ic_ts_ms": 8553,
+            "to_ts_ms": 8698,
+            "ct_s": 0.145,
+            "peak_ts_ms": 8623,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Left",
+            "ic_ts_ms": 9148,
+            "to_ts_ms": 9313,
+            "ct_s": 0.165,
+            "peak_ts_ms": 9223,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Left",
+            "ic_ts_ms": 9443,
+            "to_ts_ms": 9628,
+            "ct_s": 0.185,
+            "peak_ts_ms": 9548,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Left",
+            "ic_ts_ms": 9978,
+            "to_ts_ms": 10193,
+            "ct_s": 0.215,
+            "peak_ts_ms": 10088,
+            "merged_from": []
+          }
+        ],
+        "Right": [
+          {
+            "stance_id": 1,
+            "foot": "Right",
+            "ic_ts_ms": 8228,
+            "to_ts_ms": 8373,
+            "ct_s": 0.145,
+            "peak_ts_ms": 8308,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Right",
+            "ic_ts_ms": 8838,
+            "to_ts_ms": 9003,
+            "ct_s": 0.165,
+            "peak_ts_ms": 8923,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Right",
+            "ic_ts_ms": 9738,
+            "to_ts_ms": 9943,
+            "ct_s": 0.205,
+            "peak_ts_ms": 9833,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Right",
+            "ic_ts_ms": 10393,
+            "to_ts_ms": 10533,
+            "ct_s": 0.14,
+            "peak_ts_ms": 10468,
+            "merged_from": []
+          }
+        ]
+      }
+    },
+    {
+      "ball_id": 3,
+      "events": {
+        "Left": [
+          {
+            "stance_id": 1,
+            "foot": "Left",
+            "ic_ts_ms": 41607,
+            "to_ts_ms": 41727,
+            "ct_s": 0.12,
+            "peak_ts_ms": 41662,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Left",
+            "ic_ts_ms": 42192,
+            "to_ts_ms": 42332,
+            "ct_s": 0.14,
+            "peak_ts_ms": 42247,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Left",
+            "ic_ts_ms": 42757,
+            "to_ts_ms": 42922,
+            "ct_s": 0.165,
+            "peak_ts_ms": 42857,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Left",
+            "ic_ts_ms": 43052,
+            "to_ts_ms": 43237,
+            "ct_s": 0.185,
+            "peak_ts_ms": 43152,
+            "merged_from": []
+          },
+          {
+            "stance_id": 5,
+            "foot": "Left",
+            "ic_ts_ms": 43612,
+            "to_ts_ms": 43827,
+            "ct_s": 0.215,
+            "peak_ts_ms": 43702,
+            "merged_from": []
+          }
+        ],
+        "Right": [
+          {
+            "stance_id": 1,
+            "foot": "Right",
+            "ic_ts_ms": 41877,
+            "to_ts_ms": 42027,
+            "ct_s": 0.15,
+            "peak_ts_ms": 41942,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Right",
+            "ic_ts_ms": 42467,
+            "to_ts_ms": 42632,
+            "ct_s": 0.165,
+            "peak_ts_ms": 42562,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Right",
+            "ic_ts_ms": 43362,
+            "to_ts_ms": 43567,
+            "ct_s": 0.205,
+            "peak_ts_ms": 43462,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Right",
+            "ic_ts_ms": 44037,
+            "to_ts_ms": 44187,
+            "ct_s": 0.15,
+            "peak_ts_ms": 44107,
+            "merged_from": []
+          }
+        ]
+      }
+    },
+    {
+      "ball_id": 4,
+      "events": {
+        "Left": [
+          {
+            "stance_id": 1,
+            "foot": "Left",
+            "ic_ts_ms": 32049,
+            "to_ts_ms": 32194,
+            "ct_s": 0.145,
+            "peak_ts_ms": 32124,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Left",
+            "ic_ts_ms": 32664,
+            "to_ts_ms": 32829,
+            "ct_s": 0.165,
+            "peak_ts_ms": 32739,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Left",
+            "ic_ts_ms": 32949,
+            "to_ts_ms": 33134,
+            "ct_s": 0.185,
+            "peak_ts_ms": 33034,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Left",
+            "ic_ts_ms": 33519,
+            "to_ts_ms": 33734,
+            "ct_s": 0.215,
+            "peak_ts_ms": 33629,
+            "merged_from": []
+          },
+          {
+            "stance_id": 5,
+            "foot": "Left",
+            "ic_ts_ms": 34179,
+            "to_ts_ms": 34304,
+            "ct_s": 0.125,
+            "peak_ts_ms": 34229,
+            "merged_from": []
+          }
+        ],
+        "Right": [
+          {
+            "stance_id": 1,
+            "foot": "Right",
+            "ic_ts_ms": 31769,
+            "to_ts_ms": 31914,
+            "ct_s": 0.145,
+            "peak_ts_ms": 31839,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Right",
+            "ic_ts_ms": 32339,
+            "to_ts_ms": 32504,
+            "ct_s": 0.165,
+            "peak_ts_ms": 32424,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Right",
+            "ic_ts_ms": 33269,
+            "to_ts_ms": 33474,
+            "ct_s": 0.205,
+            "peak_ts_ms": 33359,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Right",
+            "ic_ts_ms": 33894,
+            "to_ts_ms": 34039,
+            "ct_s": 0.145,
+            "peak_ts_ms": 33974,
+            "merged_from": []
+          }
+        ]
+      }
+    },
+    {
+      "ball_id": 5,
+      "events": {
+        "Left": [
+          {
+            "stance_id": 1,
+            "foot": "Left",
+            "ic_ts_ms": 46088,
+            "to_ts_ms": 46228,
+            "ct_s": 0.14,
+            "peak_ts_ms": 46168,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Left",
+            "ic_ts_ms": 46693,
+            "to_ts_ms": 46853,
+            "ct_s": 0.16,
+            "peak_ts_ms": 46783,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Left",
+            "ic_ts_ms": 46943,
+            "to_ts_ms": 47128,
+            "ct_s": 0.185,
+            "peak_ts_ms": 47018,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Left",
+            "ic_ts_ms": 47543,
+            "to_ts_ms": 47758,
+            "ct_s": 0.215,
+            "peak_ts_ms": 47643,
+            "merged_from": []
+          }
+        ],
+        "Right": [
+          {
+            "stance_id": 1,
+            "foot": "Right",
+            "ic_ts_ms": 45778,
+            "to_ts_ms": 45913,
+            "ct_s": 0.135,
+            "peak_ts_ms": 45838,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Right",
+            "ic_ts_ms": 46388,
+            "to_ts_ms": 46553,
+            "ct_s": 0.165,
+            "peak_ts_ms": 46483,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Right",
+            "ic_ts_ms": 47303,
+            "to_ts_ms": 47508,
+            "ct_s": 0.205,
+            "peak_ts_ms": 47418,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Right",
+            "ic_ts_ms": 47943,
+            "to_ts_ms": 48088,
+            "ct_s": 0.145,
+            "peak_ts_ms": 48013,
+            "merged_from": []
+          }
+        ]
+      }
+    },
+    {
+      "ball_id": 6,
+      "events": {
+        "Left": [
+          {
+            "stance_id": 1,
+            "foot": "Left",
+            "ic_ts_ms": 32041,
+            "to_ts_ms": 32166,
+            "ct_s": 0.125,
+            "peak_ts_ms": 32101,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Left",
+            "ic_ts_ms": 32571,
+            "to_ts_ms": 32711,
+            "ct_s": 0.14,
+            "peak_ts_ms": 32651,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Left",
+            "ic_ts_ms": 33186,
+            "to_ts_ms": 33351,
+            "ct_s": 0.165,
+            "peak_ts_ms": 33276,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Left",
+            "ic_ts_ms": 33491,
+            "to_ts_ms": 33676,
+            "ct_s": 0.185,
+            "peak_ts_ms": 33591,
+            "merged_from": []
+          },
+          {
+            "stance_id": 5,
+            "foot": "Left",
+            "ic_ts_ms": 34031,
+            "to_ts_ms": 34251,
+            "ct_s": 0.22,
+            "peak_ts_ms": 34146,
+            "merged_from": []
+          }
+        ],
+        "Right": [
+          {
+            "stance_id": 1,
+            "foot": "Right",
+            "ic_ts_ms": 32296,
+            "to_ts_ms": 32436,
+            "ct_s": 0.14,
+            "peak_ts_ms": 32371,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Right",
+            "ic_ts_ms": 32886,
+            "to_ts_ms": 33051,
+            "ct_s": 0.165,
+            "peak_ts_ms": 32961,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Right",
+            "ic_ts_ms": 33791,
+            "to_ts_ms": 33996,
+            "ct_s": 0.205,
+            "peak_ts_ms": 33896,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Right",
+            "ic_ts_ms": 34421,
+            "to_ts_ms": 34566,
+            "ct_s": 0.145,
+            "peak_ts_ms": 34501,
+            "merged_from": []
+          }
+        ]
+      }
+    },
+    {
+      "ball_id": 7,
+      "events": {
+        "Left": [
+          {
+            "stance_id": 1,
+            "foot": "Left",
+            "ic_ts_ms": 16684,
+            "to_ts_ms": 16824,
+            "ct_s": 0.14,
+            "peak_ts_ms": 16759,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Left",
+            "ic_ts_ms": 17314,
+            "to_ts_ms": 17484,
+            "ct_s": 0.17,
+            "peak_ts_ms": 17394,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Left",
+            "ic_ts_ms": 17599,
+            "to_ts_ms": 17784,
+            "ct_s": 0.185,
+            "peak_ts_ms": 17674,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Left",
+            "ic_ts_ms": 18154,
+            "to_ts_ms": 18369,
+            "ct_s": 0.215,
+            "peak_ts_ms": 18274,
+            "merged_from": []
+          }
+        ],
+        "Right": [
+          {
+            "stance_id": 1,
+            "foot": "Right",
+            "ic_ts_ms": 16409,
+            "to_ts_ms": 16554,
+            "ct_s": 0.145,
+            "peak_ts_ms": 16479,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Right",
+            "ic_ts_ms": 17014,
+            "to_ts_ms": 17174,
+            "ct_s": 0.16,
+            "peak_ts_ms": 17094,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Right",
+            "ic_ts_ms": 17889,
+            "to_ts_ms": 18094,
+            "ct_s": 0.205,
+            "peak_ts_ms": 17999,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Right",
+            "ic_ts_ms": 18539,
+            "to_ts_ms": 18684,
+            "ct_s": 0.145,
+            "peak_ts_ms": 18609,
+            "merged_from": []
+          }
+        ]
+      }
+    },
+    {
+      "ball_id": 8,
+      "events": {
+        "Left": [
+          {
+            "stance_id": 1,
+            "foot": "Left",
+            "ic_ts_ms": 35526,
+            "to_ts_ms": 35671,
+            "ct_s": 0.145,
+            "peak_ts_ms": 35591,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Left",
+            "ic_ts_ms": 36116,
+            "to_ts_ms": 36281,
+            "ct_s": 0.165,
+            "peak_ts_ms": 36211,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Left",
+            "ic_ts_ms": 36411,
+            "to_ts_ms": 36596,
+            "ct_s": 0.185,
+            "peak_ts_ms": 36491,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Left",
+            "ic_ts_ms": 36961,
+            "to_ts_ms": 37176,
+            "ct_s": 0.215,
+            "peak_ts_ms": 37066,
+            "merged_from": []
+          },
+          {
+            "stance_id": 5,
+            "foot": "Left",
+            "ic_ts_ms": 37621,
+            "to_ts_ms": 37746,
+            "ct_s": 0.125,
+            "peak_ts_ms": 37691,
+            "merged_from": []
+          }
+        ],
+        "Right": [
+          {
+            "stance_id": 1,
+            "foot": "Right",
+            "ic_ts_ms": 35196,
+            "to_ts_ms": 35336,
+            "ct_s": 0.14,
+            "peak_ts_ms": 35276,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Right",
+            "ic_ts_ms": 35816,
+            "to_ts_ms": 35981,
+            "ct_s": 0.165,
+            "peak_ts_ms": 35896,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Right",
+            "ic_ts_ms": 36711,
+            "to_ts_ms": 36916,
+            "ct_s": 0.205,
+            "peak_ts_ms": 36816,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Right",
+            "ic_ts_ms": 37381,
+            "to_ts_ms": 37526,
+            "ct_s": 0.145,
+            "peak_ts_ms": 37461,
+            "merged_from": []
+          }
+        ]
+      }
+    },
+    {
+      "ball_id": 9,
+      "events": {
+        "Left": [
+          {
+            "stance_id": 1,
+            "foot": "Left",
+            "ic_ts_ms": 34571,
+            "to_ts_ms": 34691,
+            "ct_s": 0.12,
+            "peak_ts_ms": 34631,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Left",
+            "ic_ts_ms": 35126,
+            "to_ts_ms": 35271,
+            "ct_s": 0.145,
+            "peak_ts_ms": 35186,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Left",
+            "ic_ts_ms": 35726,
+            "to_ts_ms": 35886,
+            "ct_s": 0.16,
+            "peak_ts_ms": 35816,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Left",
+            "ic_ts_ms": 35996,
+            "to_ts_ms": 36186,
+            "ct_s": 0.19,
+            "peak_ts_ms": 36086,
+            "merged_from": []
+          },
+          {
+            "stance_id": 5,
+            "foot": "Left",
+            "ic_ts_ms": 36571,
+            "to_ts_ms": 36786,
+            "ct_s": 0.215,
+            "peak_ts_ms": 36686,
+            "merged_from": []
+          }
+        ],
+        "Right": [
+          {
+            "stance_id": 1,
+            "foot": "Right",
+            "ic_ts_ms": 34806,
+            "to_ts_ms": 34951,
+            "ct_s": 0.145,
+            "peak_ts_ms": 34871,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Right",
+            "ic_ts_ms": 35416,
+            "to_ts_ms": 35581,
+            "ct_s": 0.165,
+            "peak_ts_ms": 35506,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Right",
+            "ic_ts_ms": 36311,
+            "to_ts_ms": 36516,
+            "ct_s": 0.205,
+            "peak_ts_ms": 36426,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Right",
+            "ic_ts_ms": 36941,
+            "to_ts_ms": 37086,
+            "ct_s": 0.145,
+            "peak_ts_ms": 37001,
+            "merged_from": []
+          }
+        ]
+      }
+    },
+    {
+      "ball_id": 10,
+      "events": {
+        "Left": [
+          {
+            "stance_id": 1,
+            "foot": "Left",
+            "ic_ts_ms": 8088,
+            "to_ts_ms": 8233,
+            "ct_s": 0.145,
+            "peak_ts_ms": 8168,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Left",
+            "ic_ts_ms": 8708,
+            "to_ts_ms": 8868,
+            "ct_s": 0.16,
+            "peak_ts_ms": 8803,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Left",
+            "ic_ts_ms": 9018,
+            "to_ts_ms": 9203,
+            "ct_s": 0.185,
+            "peak_ts_ms": 9103,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Left",
+            "ic_ts_ms": 9568,
+            "to_ts_ms": 9783,
+            "ct_s": 0.215,
+            "peak_ts_ms": 9688,
+            "merged_from": []
+          }
+        ],
+        "Right": [
+          {
+            "stance_id": 1,
+            "foot": "Right",
+            "ic_ts_ms": 7793,
+            "to_ts_ms": 7928,
+            "ct_s": 0.135,
+            "peak_ts_ms": 7853,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Right",
+            "ic_ts_ms": 8393,
+            "to_ts_ms": 8558,
+            "ct_s": 0.165,
+            "peak_ts_ms": 8473,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Right",
+            "ic_ts_ms": 9318,
+            "to_ts_ms": 9523,
+            "ct_s": 0.205,
+            "peak_ts_ms": 9418,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Right",
+            "ic_ts_ms": 9953,
+            "to_ts_ms": 10098,
+            "ct_s": 0.145,
+            "peak_ts_ms": 10013,
+            "merged_from": []
+          }
+        ]
+      }
+    },
+    {
+      "ball_id": 11,
+      "events": {
+        "Left": [
+          {
+            "stance_id": 1,
+            "foot": "Left",
+            "ic_ts_ms": 16620,
+            "to_ts_ms": 16765,
+            "ct_s": 0.145,
+            "peak_ts_ms": 16700,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Left",
+            "ic_ts_ms": 17235,
+            "to_ts_ms": 17400,
+            "ct_s": 0.165,
+            "peak_ts_ms": 17310,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Left",
+            "ic_ts_ms": 17565,
+            "to_ts_ms": 17750,
+            "ct_s": 0.185,
+            "peak_ts_ms": 17665,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Left",
+            "ic_ts_ms": 18105,
+            "to_ts_ms": 18320,
+            "ct_s": 0.215,
+            "peak_ts_ms": 18225,
+            "merged_from": []
+          }
+        ],
+        "Right": [
+          {
+            "stance_id": 1,
+            "foot": "Right",
+            "ic_ts_ms": 16340,
+            "to_ts_ms": 16480,
+            "ct_s": 0.14,
+            "peak_ts_ms": 16425,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Right",
+            "ic_ts_ms": 16940,
+            "to_ts_ms": 17100,
+            "ct_s": 0.16,
+            "peak_ts_ms": 17030,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Right",
+            "ic_ts_ms": 17855,
+            "to_ts_ms": 18060,
+            "ct_s": 0.205,
+            "peak_ts_ms": 17955,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Right",
+            "ic_ts_ms": 18500,
+            "to_ts_ms": 18645,
+            "ct_s": 0.145,
+            "peak_ts_ms": 18565,
+            "merged_from": []
+          }
+        ]
+      }
+    },
+    {
+      "ball_id": 12,
+      "events": {
+        "Left": [
+          {
+            "stance_id": 1,
+            "foot": "Left",
+            "ic_ts_ms": 29433,
+            "to_ts_ms": 29558,
+            "ct_s": 0.125,
+            "peak_ts_ms": 29488,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Left",
+            "ic_ts_ms": 30028,
+            "to_ts_ms": 30168,
+            "ct_s": 0.14,
+            "peak_ts_ms": 30103,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Left",
+            "ic_ts_ms": 30638,
+            "to_ts_ms": 30803,
+            "ct_s": 0.165,
+            "peak_ts_ms": 30723,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Left",
+            "ic_ts_ms": 30913,
+            "to_ts_ms": 31098,
+            "ct_s": 0.185,
+            "peak_ts_ms": 31018,
+            "merged_from": []
+          },
+          {
+            "stance_id": 5,
+            "foot": "Left",
+            "ic_ts_ms": 31483,
+            "to_ts_ms": 31698,
+            "ct_s": 0.215,
+            "peak_ts_ms": 31598,
+            "merged_from": []
+          },
+          {
+            "stance_id": 6,
+            "foot": "Left",
+            "ic_ts_ms": 32093,
+            "to_ts_ms": 32213,
+            "ct_s": 0.12,
+            "peak_ts_ms": 32148,
+            "merged_from": []
+          }
+        ],
+        "Right": [
+          {
+            "stance_id": 1,
+            "foot": "Right",
+            "ic_ts_ms": 29758,
+            "to_ts_ms": 29898,
+            "ct_s": 0.14,
+            "peak_ts_ms": 29838,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Right",
+            "ic_ts_ms": 30323,
+            "to_ts_ms": 30488,
+            "ct_s": 0.165,
+            "peak_ts_ms": 30403,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Right",
+            "ic_ts_ms": 31208,
+            "to_ts_ms": 31413,
+            "ct_s": 0.205,
+            "peak_ts_ms": 31318,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Right",
+            "ic_ts_ms": 31868,
+            "to_ts_ms": 32008,
+            "ct_s": 0.14,
+            "peak_ts_ms": 31933,
+            "merged_from": []
+          }
+        ]
+      }
+    },
+    {
+      "ball_id": 13,
+      "events": {
+        "Left": [
+          {
+            "stance_id": 1,
+            "foot": "Left",
+            "ic_ts_ms": 40125,
+            "to_ts_ms": 40270,
+            "ct_s": 0.145,
+            "peak_ts_ms": 40195,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Left",
+            "ic_ts_ms": 40725,
+            "to_ts_ms": 40890,
+            "ct_s": 0.165,
+            "peak_ts_ms": 40805,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Left",
+            "ic_ts_ms": 41005,
+            "to_ts_ms": 41190,
+            "ct_s": 0.185,
+            "peak_ts_ms": 41100,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Left",
+            "ic_ts_ms": 41600,
+            "to_ts_ms": 41815,
+            "ct_s": 0.215,
+            "peak_ts_ms": 41725,
+            "merged_from": []
+          }
+        ],
+        "Right": [
+          {
+            "stance_id": 1,
+            "foot": "Right",
+            "ic_ts_ms": 39795,
+            "to_ts_ms": 39940,
+            "ct_s": 0.145,
+            "peak_ts_ms": 39875,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Right",
+            "ic_ts_ms": 40445,
+            "to_ts_ms": 40610,
+            "ct_s": 0.165,
+            "peak_ts_ms": 40520,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Right",
+            "ic_ts_ms": 41305,
+            "to_ts_ms": 41510,
+            "ct_s": 0.205,
+            "peak_ts_ms": 41405,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Right",
+            "ic_ts_ms": 41980,
+            "to_ts_ms": 42115,
+            "ct_s": 0.135,
+            "peak_ts_ms": 42030,
+            "merged_from": []
+          }
+        ]
+      }
+    },
+    {
+      "ball_id": 14,
+      "events": {
+        "Left": [
+          {
+            "stance_id": 1,
+            "foot": "Left",
+            "ic_ts_ms": 40674,
+            "to_ts_ms": 40819,
+            "ct_s": 0.145,
+            "peak_ts_ms": 40744,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Left",
+            "ic_ts_ms": 41259,
+            "to_ts_ms": 41424,
+            "ct_s": 0.165,
+            "peak_ts_ms": 41344,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Left",
+            "ic_ts_ms": 41579,
+            "to_ts_ms": 41764,
+            "ct_s": 0.185,
+            "peak_ts_ms": 41669,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Left",
+            "ic_ts_ms": 42099,
+            "to_ts_ms": 42314,
+            "ct_s": 0.215,
+            "peak_ts_ms": 42194,
+            "merged_from": []
+          }
+        ],
+        "Right": [
+          {
+            "stance_id": 1,
+            "foot": "Right",
+            "ic_ts_ms": 40394,
+            "to_ts_ms": 40539,
+            "ct_s": 0.145,
+            "peak_ts_ms": 40469,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Right",
+            "ic_ts_ms": 40979,
+            "to_ts_ms": 41144,
+            "ct_s": 0.165,
+            "peak_ts_ms": 41059,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Right",
+            "ic_ts_ms": 41869,
+            "to_ts_ms": 42074,
+            "ct_s": 0.205,
+            "peak_ts_ms": 41984,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Right",
+            "ic_ts_ms": 42544,
+            "to_ts_ms": 42684,
+            "ct_s": 0.14,
+            "peak_ts_ms": 42619,
+            "merged_from": []
+          }
+        ]
+      }
+    },
+    {
+      "ball_id": 15,
+      "events": {
+        "Left": [
+          {
+            "stance_id": 1,
+            "foot": "Left",
+            "ic_ts_ms": 8264,
+            "to_ts_ms": 8384,
+            "ct_s": 0.12,
+            "peak_ts_ms": 8309,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Left",
+            "ic_ts_ms": 8814,
+            "to_ts_ms": 8959,
+            "ct_s": 0.145,
+            "peak_ts_ms": 8894,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Left",
+            "ic_ts_ms": 9429,
+            "to_ts_ms": 9589,
+            "ct_s": 0.16,
+            "peak_ts_ms": 9519,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Left",
+            "ic_ts_ms": 9724,
+            "to_ts_ms": 9909,
+            "ct_s": 0.185,
+            "peak_ts_ms": 9799,
+            "merged_from": []
+          },
+          {
+            "stance_id": 5,
+            "foot": "Left",
+            "ic_ts_ms": 10264,
+            "to_ts_ms": 10479,
+            "ct_s": 0.215,
+            "peak_ts_ms": 10374,
+            "merged_from": []
+          }
+        ],
+        "Right": [
+          {
+            "stance_id": 1,
+            "foot": "Right",
+            "ic_ts_ms": 8479,
+            "to_ts_ms": 8619,
+            "ct_s": 0.14,
+            "peak_ts_ms": 8529,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Right",
+            "ic_ts_ms": 9124,
+            "to_ts_ms": 9284,
+            "ct_s": 0.16,
+            "peak_ts_ms": 9209,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Right",
+            "ic_ts_ms": 10019,
+            "to_ts_ms": 10224,
+            "ct_s": 0.205,
+            "peak_ts_ms": 10134,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Right",
+            "ic_ts_ms": 10674,
+            "to_ts_ms": 10814,
+            "ct_s": 0.14,
+            "peak_ts_ms": 10744,
+            "merged_from": []
+          }
+        ]
+      }
+    },
+    {
+      "ball_id": 16,
+      "events": {
+        "Left": [
+          {
+            "stance_id": 1,
+            "foot": "Left",
+            "ic_ts_ms": 27569,
+            "to_ts_ms": 27709,
+            "ct_s": 0.14,
+            "peak_ts_ms": 27639,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Left",
+            "ic_ts_ms": 28194,
+            "to_ts_ms": 28359,
+            "ct_s": 0.165,
+            "peak_ts_ms": 28259,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Left",
+            "ic_ts_ms": 28459,
+            "to_ts_ms": 28644,
+            "ct_s": 0.185,
+            "peak_ts_ms": 28544,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Left",
+            "ic_ts_ms": 28999,
+            "to_ts_ms": 29214,
+            "ct_s": 0.215,
+            "peak_ts_ms": 29114,
+            "merged_from": []
+          },
+          {
+            "stance_id": 5,
+            "foot": "Left",
+            "ic_ts_ms": 29674,
+            "to_ts_ms": 29799,
+            "ct_s": 0.125,
+            "peak_ts_ms": 29739,
+            "merged_from": []
+          }
+        ],
+        "Right": [
+          {
+            "stance_id": 1,
+            "foot": "Right",
+            "ic_ts_ms": 27274,
+            "to_ts_ms": 27414,
+            "ct_s": 0.14,
+            "peak_ts_ms": 27354,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Right",
+            "ic_ts_ms": 27879,
+            "to_ts_ms": 28044,
+            "ct_s": 0.165,
+            "peak_ts_ms": 27969,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Right",
+            "ic_ts_ms": 28774,
+            "to_ts_ms": 28979,
+            "ct_s": 0.205,
+            "peak_ts_ms": 28874,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Right",
+            "ic_ts_ms": 29424,
+            "to_ts_ms": 29569,
+            "ct_s": 0.145,
+            "peak_ts_ms": 29494,
+            "merged_from": []
+          }
+        ]
+      }
+    },
+    {
+      "ball_id": 17,
+      "events": {
+        "Left": [
+          {
+            "stance_id": 1,
+            "foot": "Left",
+            "ic_ts_ms": 24371,
+            "to_ts_ms": 24521,
+            "ct_s": 0.15,
+            "peak_ts_ms": 24441,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Left",
+            "ic_ts_ms": 24981,
+            "to_ts_ms": 25141,
+            "ct_s": 0.16,
+            "peak_ts_ms": 25066,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Left",
+            "ic_ts_ms": 25261,
+            "to_ts_ms": 25446,
+            "ct_s": 0.185,
+            "peak_ts_ms": 25336,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Left",
+            "ic_ts_ms": 25801,
+            "to_ts_ms": 26016,
+            "ct_s": 0.215,
+            "peak_ts_ms": 25916,
+            "merged_from": []
+          }
+        ],
+        "Right": [
+          {
+            "stance_id": 1,
+            "foot": "Right",
+            "ic_ts_ms": 24071,
+            "to_ts_ms": 24211,
+            "ct_s": 0.14,
+            "peak_ts_ms": 24136,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Right",
+            "ic_ts_ms": 24681,
+            "to_ts_ms": 24846,
+            "ct_s": 0.165,
+            "peak_ts_ms": 24756,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Right",
+            "ic_ts_ms": 25556,
+            "to_ts_ms": 25761,
+            "ct_s": 0.205,
+            "peak_ts_ms": 25656,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Right",
+            "ic_ts_ms": 26196,
+            "to_ts_ms": 26341,
+            "ct_s": 0.145,
+            "peak_ts_ms": 26281,
+            "merged_from": []
+          }
+        ]
+      }
+    },
+    {
+      "ball_id": 18,
+      "events": {
+        "Left": [
+          {
+            "stance_id": 1,
+            "foot": "Left",
+            "ic_ts_ms": 32708,
+            "to_ts_ms": 32823,
+            "ct_s": 0.115,
+            "peak_ts_ms": 32773,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Left",
+            "ic_ts_ms": 33248,
+            "to_ts_ms": 33393,
+            "ct_s": 0.145,
+            "peak_ts_ms": 33323,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Left",
+            "ic_ts_ms": 33813,
+            "to_ts_ms": 33973,
+            "ct_s": 0.16,
+            "peak_ts_ms": 33913,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Left",
+            "ic_ts_ms": 34128,
+            "to_ts_ms": 34313,
+            "ct_s": 0.185,
+            "peak_ts_ms": 34223,
+            "merged_from": []
+          },
+          {
+            "stance_id": 5,
+            "foot": "Left",
+            "ic_ts_ms": 34698,
+            "to_ts_ms": 34913,
+            "ct_s": 0.215,
+            "peak_ts_ms": 34818,
+            "merged_from": []
+          }
+        ],
+        "Right": [
+          {
+            "stance_id": 1,
+            "foot": "Right",
+            "ic_ts_ms": 32948,
+            "to_ts_ms": 33093,
+            "ct_s": 0.145,
+            "peak_ts_ms": 33013,
+            "merged_from": []
+          },
+          {
+            "stance_id": 2,
+            "foot": "Right",
+            "ic_ts_ms": 33548,
+            "to_ts_ms": 33708,
+            "ct_s": 0.16,
+            "peak_ts_ms": 33623,
+            "merged_from": []
+          },
+          {
+            "stance_id": 3,
+            "foot": "Right",
+            "ic_ts_ms": 34428,
+            "to_ts_ms": 34633,
+            "ct_s": 0.205,
+            "peak_ts_ms": 34548,
+            "merged_from": []
+          },
+          {
+            "stance_id": 4,
+            "foot": "Right",
+            "ic_ts_ms": 35113,
+            "to_ts_ms": 35253,
+            "ct_s": 0.14,
+            "peak_ts_ms": 35173,
+            "merged_from": []
+          }
+        ]
+      }
+    }
+  ]
+}

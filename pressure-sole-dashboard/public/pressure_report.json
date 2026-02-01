@@ -1,0 +1,3850 @@
+{
+  "athlete": {
+    "name": "Sample Bowler",
+    "height_cm": 185,
+    "weight_kg": 82,
+    "dominant_arm": "right",
+    "bowling_style": "fast"
+  },
+  "session_meta": {
+    "session_id": "test_phase_specific",
+    "surface": "indoor",
+    "notes": "replace with real"
+  },
+  "report_readme": {
+    "how_to_read": [
+      "Phases: BFC = back-foot contact, FFC = front-foot contact (primary reporting phases).",
+      "RUNUP_LAST and BOUND are upstream rhythm phases used internally; summaries focus on BFC/FFC.",
+      "CT (contact time): foot-ground duration; lower is faster/stiffer, higher is longer/softer.",
+      "Impulse proxy: integrated load over contact; higher implies greater force-time output.",
+      "Loading-rate proxy: early rise of load; higher indicates sharper impact/bracing.",
+      "Values are within-athlete proxies for this session (no external force calibration).",
+      "Bands (very_low→very_high) are percentile-based within this session."
+    ],
+    "metric_glossary": {
+      "ct_s": "Contact time (seconds): duration of stance contact.",
+      "impulse_proxy": "Impulse proxy (a.u.): area under pressure curve during contact.",
+      "loading_rate_proxy": "Loading-rate proxy (a.u./s): initial slope of loading.",
+      "peak_proxy": "Peak pressure proxy (a.u.): maximum instantaneous pressure proxy.",
+      "heel_share_0_1": "Heel share (0–1): fraction of total load under heel.",
+      "ml_balance_0_1": "Medial-lateral balance (0–1): 0=lateral, 1=medial at peak load.",
+      "heel_to_fore_delay_ms": "Heel-to-forefoot delay (ms): +ve=heel-first, -ve=toe-first sequence."
+    }
+  },
+  "deliveries": [
+    {
+      "ball_id": 1,
+      "usable_delivery": true,
+      "phase_summary": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "neutral_bfc"
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "absorptive_bracing"
+        }
+      },
+      "interpretation": {
+        "label": "Tired Legs, Harder Landing",
+        "explanation": "Your back leg is slowing down as fatigue sets in. To keep the pace up, your body is hitting the front leg harder. You're working harder for the same result : or less.",
+        "what_youre_doing": "Allowing back-foot contact to drag as eccentric strength fades, then compensating with aggressive front-leg impact to maintain release speed.",
+        "why_it_happens": "Spell length exceeding current capacity, inadequate recovery between overs, or cumulative load from previous sessions.",
+        "confidence": "high",
+        "coach_cues": [
+          "Rhythm over effort : stop trying to muscle it",
+          "Light feet through the run-up",
+          "If the timing's gone, shorten the spell"
+        ],
+        "impact": {
+          "pace": "Diminishing returns : more effort, same or less speed",
+          "accuracy": "Declining as timing drifts",
+          "load": "Front leg absorbing what the back leg can no longer handle",
+          "injury_risk": "High : this is when injuries happen"
+        }
+      },
+      "training_focus": {
+        "title": "Training Focus for the Next 7 Days",
+        "program_name": "Recovery & Technique Awareness",
+        "load_guidance": "Reduce bowling load this week : focus on recovery and technique",
+        "sessions": [
+          {
+            "day": 1,
+            "focus": "Active recovery only",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "focus": "Light technique awareness",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "focus": "Recovery + awareness",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              },
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "focus": "Gentle reintegration",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          }
+        ],
+        "progression": "Only progress to low-amplitude bounds if fatigue symptoms have fully resolved and the bowler feels fresh.",
+        "exit_goal": "Bowler reports feeling fresh; shadow bowling shows no compensation patterns."
+      },
+      "qc_summary": {
+        "status": "passed",
+        "notes": []
+      },
+      "phase_details": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "high",
+          "impulse_proxy": 483081.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 133.9,
+          "loading_rate_proxy_band": "low",
+          "heel_share_0_1": 0.435,
+          "heel_share_band": "low",
+          "ml_balance_0_1": 0.506,
+          "ml_balance_band": "high",
+          "heel_to_fore_delay_ms": 80,
+          "pattern": "neutral_bfc",
+          "coach_text": "Neutral BFC: Loading within expected ranges."
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "very_high",
+          "impulse_proxy": 546216.0,
+          "impulse_proxy_band": "very_high",
+          "loading_rate_proxy": 133.4,
+          "loading_rate_proxy_band": "low",
+          "heel_share_0_1": 0.408,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.478,
+          "ml_balance_band": "very_low",
+          "heel_to_fore_delay_ms": 80,
+          "pattern": "absorptive_bracing",
+          "coach_text": "Absorptive Bracing: Long contact and high energy absorption."
+        }
+      },
+      "insights": {
+        "BFC": [
+          "Medial bias at peak load."
+        ],
+        "FFC": [
+          "Front-foot contact time is long → energy leaks and bracing is less stiff.",
+          "Lateral bias at peak load."
+        ]
+      }
+    },
+    {
+      "ball_id": 2,
+      "usable_delivery": true,
+      "phase_summary": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "neutral_bfc"
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "absorptive_bracing"
+        }
+      },
+      "interpretation": {
+        "label": "Tired Legs, Harder Landing",
+        "explanation": "Your back leg is slowing down as fatigue sets in. To keep the pace up, your body is hitting the front leg harder. You're working harder for the same result : or less.",
+        "what_youre_doing": "Allowing back-foot contact to drag as eccentric strength fades, then compensating with aggressive front-leg impact to maintain release speed.",
+        "why_it_happens": "Spell length exceeding current capacity, inadequate recovery between overs, or cumulative load from previous sessions.",
+        "confidence": "high",
+        "coach_cues": [
+          "Rhythm over effort : stop trying to muscle it",
+          "Light feet through the run-up",
+          "If the timing's gone, shorten the spell"
+        ],
+        "impact": {
+          "pace": "Diminishing returns : more effort, same or less speed",
+          "accuracy": "Declining as timing drifts",
+          "load": "Front leg absorbing what the back leg can no longer handle",
+          "injury_risk": "High : this is when injuries happen"
+        }
+      },
+      "training_focus": {
+        "title": "Training Focus for the Next 7 Days",
+        "program_name": "Recovery & Technique Awareness",
+        "load_guidance": "Reduce bowling load this week : focus on recovery and technique",
+        "sessions": [
+          {
+            "day": 1,
+            "focus": "Active recovery only",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "focus": "Light technique awareness",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "focus": "Recovery + awareness",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              },
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "focus": "Gentle reintegration",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          }
+        ],
+        "progression": "Only progress to low-amplitude bounds if fatigue symptoms have fully resolved and the bowler feels fresh.",
+        "exit_goal": "Bowler reports feeling fresh; shadow bowling shows no compensation patterns."
+      },
+      "qc_summary": {
+        "status": "passed",
+        "notes": []
+      },
+      "phase_details": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "high",
+          "impulse_proxy": 486512.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 141.1,
+          "loading_rate_proxy_band": "high",
+          "heel_share_0_1": 0.465,
+          "heel_share_band": "high",
+          "ml_balance_0_1": 0.509,
+          "ml_balance_band": "high",
+          "heel_to_fore_delay_ms": 85,
+          "pattern": "neutral_bfc",
+          "coach_text": "Neutral BFC: Loading within expected ranges."
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "very_high",
+          "impulse_proxy": 540896.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 132.3,
+          "loading_rate_proxy_band": "low",
+          "heel_share_0_1": 0.418,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.478,
+          "ml_balance_band": "very_low",
+          "heel_to_fore_delay_ms": 80,
+          "pattern": "absorptive_bracing",
+          "coach_text": "Absorptive Bracing: Long contact and high energy absorption."
+        }
+      },
+      "insights": {
+        "BFC": [
+          "Heel-dominant loading → braking tendency.",
+          "Medial bias at peak load."
+        ],
+        "FFC": [
+          "Front-foot contact time is long → energy leaks and bracing is less stiff.",
+          "Lateral bias at peak load."
+        ]
+      }
+    },
+    {
+      "ball_id": 3,
+      "usable_delivery": true,
+      "phase_summary": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "neutral_bfc"
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "absorptive_bracing"
+        }
+      },
+      "interpretation": {
+        "label": "Tired Legs, Harder Landing",
+        "explanation": "Your back leg is slowing down as fatigue sets in. To keep the pace up, your body is hitting the front leg harder. You're working harder for the same result : or less.",
+        "what_youre_doing": "Allowing back-foot contact to drag as eccentric strength fades, then compensating with aggressive front-leg impact to maintain release speed.",
+        "why_it_happens": "Spell length exceeding current capacity, inadequate recovery between overs, or cumulative load from previous sessions.",
+        "confidence": "high",
+        "coach_cues": [
+          "Rhythm over effort : stop trying to muscle it",
+          "Light feet through the run-up",
+          "If the timing's gone, shorten the spell"
+        ],
+        "impact": {
+          "pace": "Diminishing returns : more effort, same or less speed",
+          "accuracy": "Declining as timing drifts",
+          "load": "Front leg absorbing what the back leg can no longer handle",
+          "injury_risk": "High : this is when injuries happen"
+        }
+      },
+      "training_focus": {
+        "title": "Training Focus for the Next 7 Days",
+        "program_name": "Recovery & Technique Awareness",
+        "load_guidance": "Reduce bowling load this week : focus on recovery and technique",
+        "sessions": [
+          {
+            "day": 1,
+            "focus": "Active recovery only",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "focus": "Light technique awareness",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "focus": "Recovery + awareness",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              },
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "focus": "Gentle reintegration",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          }
+        ],
+        "progression": "Only progress to low-amplitude bounds if fatigue symptoms have fully resolved and the bowler feels fresh.",
+        "exit_goal": "Bowler reports feeling fresh; shadow bowling shows no compensation patterns."
+      },
+      "qc_summary": {
+        "status": "passed",
+        "notes": []
+      },
+      "phase_details": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "high",
+          "impulse_proxy": 494251.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 137.6,
+          "loading_rate_proxy_band": "low",
+          "heel_share_0_1": 0.453,
+          "heel_share_band": "high",
+          "ml_balance_0_1": 0.463,
+          "ml_balance_band": "very_low",
+          "heel_to_fore_delay_ms": 80,
+          "pattern": "neutral_bfc",
+          "coach_text": "Neutral BFC: Loading within expected ranges."
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "very_high",
+          "impulse_proxy": 549305.0,
+          "impulse_proxy_band": "very_high",
+          "loading_rate_proxy": 164.2,
+          "loading_rate_proxy_band": "high",
+          "heel_share_0_1": 0.518,
+          "heel_share_band": "very_high",
+          "ml_balance_0_1": 0.504,
+          "ml_balance_band": "high",
+          "heel_to_fore_delay_ms": 85,
+          "pattern": "absorptive_bracing",
+          "coach_text": "Absorptive Bracing: Long contact and high energy absorption."
+        }
+      },
+      "insights": {
+        "BFC": [
+          "Heel-dominant loading → braking tendency.",
+          "Lateral bias at peak load."
+        ],
+        "FFC": [
+          "Front-foot contact time is long → energy leaks and bracing is less stiff.",
+          "Heel-dominant loading → braking tendency.",
+          "Medial bias at peak load."
+        ]
+      }
+    },
+    {
+      "ball_id": 4,
+      "usable_delivery": true,
+      "phase_summary": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "braking_heel_bfc"
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "absorptive_bracing"
+        }
+      },
+      "interpretation": {
+        "label": "Tired Legs, Harder Landing",
+        "explanation": "Your back leg is slowing down as fatigue sets in. To keep the pace up, your body is hitting the front leg harder. You're working harder for the same result : or less.",
+        "what_youre_doing": "Allowing back-foot contact to drag as eccentric strength fades, then compensating with aggressive front-leg impact to maintain release speed.",
+        "why_it_happens": "Spell length exceeding current capacity, inadequate recovery between overs, or cumulative load from previous sessions.",
+        "confidence": "high",
+        "coach_cues": [
+          "Rhythm over effort : stop trying to muscle it",
+          "Light feet through the run-up",
+          "If the timing's gone, shorten the spell"
+        ],
+        "impact": {
+          "pace": "Diminishing returns : more effort, same or less speed",
+          "accuracy": "Declining as timing drifts",
+          "load": "Front leg absorbing what the back leg can no longer handle",
+          "injury_risk": "High : this is when injuries happen"
+        }
+      },
+      "training_focus": {
+        "title": "Training Focus for the Next 7 Days",
+        "program_name": "Recovery & Technique Awareness",
+        "load_guidance": "Reduce bowling load this week : focus on recovery and technique",
+        "sessions": [
+          {
+            "day": 1,
+            "focus": "Active recovery only",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "focus": "Light technique awareness",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "focus": "Recovery + awareness",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              },
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "focus": "Gentle reintegration",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          }
+        ],
+        "progression": "Only progress to low-amplitude bounds if fatigue symptoms have fully resolved and the bowler feels fresh.",
+        "exit_goal": "Bowler reports feeling fresh; shadow bowling shows no compensation patterns."
+      },
+      "qc_summary": {
+        "status": "passed",
+        "notes": []
+      },
+      "phase_details": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "high",
+          "impulse_proxy": 488017.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 150.2,
+          "loading_rate_proxy_band": "high",
+          "heel_share_0_1": 0.511,
+          "heel_share_band": "very_high",
+          "ml_balance_0_1": 0.472,
+          "ml_balance_band": "very_low",
+          "heel_to_fore_delay_ms": 85,
+          "pattern": "braking_heel_bfc",
+          "coach_text": "Braking Heel BFC: Heavy heel bias and prolonged contact."
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "very_high",
+          "impulse_proxy": 554623.0,
+          "impulse_proxy_band": "very_high",
+          "loading_rate_proxy": 134.8,
+          "loading_rate_proxy_band": "low",
+          "heel_share_0_1": 0.413,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.487,
+          "ml_balance_band": "very_low",
+          "heel_to_fore_delay_ms": 75,
+          "pattern": "absorptive_bracing",
+          "coach_text": "Absorptive Bracing: Long contact and high energy absorption."
+        }
+      },
+      "insights": {
+        "BFC": [
+          "Heel-dominant loading → braking tendency.",
+          "Lateral bias at peak load."
+        ],
+        "FFC": [
+          "Front-foot contact time is long → energy leaks and bracing is less stiff.",
+          "Lateral bias at peak load."
+        ]
+      }
+    },
+    {
+      "ball_id": 5,
+      "usable_delivery": true,
+      "phase_summary": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "collapsing_bfc"
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "absorptive_bracing"
+        }
+      },
+      "interpretation": {
+        "label": "Too Soft Through the Action",
+        "explanation": "You're not attacking the crease. Both legs are absorbing load instead of acting like stiff levers. It feels easy, but you're bleeding pace at every contact.",
+        "what_youre_doing": "Landing softly on both back and front feet, with excessive knee bend and no real 'snap' in the action.",
+        "why_it_happens": "Low intent, under-pacing the run-up, or protecting something without realising it. Can also happen when 'saving yourself' in a long spell.",
+        "confidence": "high",
+        "coach_cues": [
+          "Attack the crease like you mean it",
+          "Be aggressive through the bound",
+          "Brace hard on the front leg : commit to it"
+        ],
+        "impact": {
+          "pace": "Significant : your legs aren't helping you, they're slowing you down",
+          "accuracy": "Variable : the soft base makes it hard to repeat",
+          "load": "Low immediate load, but inefficient patterns lead to fatigue-driven breakdown",
+          "injury_risk": "Low now, but technique erosion is a concern"
+        }
+      },
+      "training_focus": {
+        "title": "Training Focus for the Next 7 Days",
+        "program_name": "Recovery & Technique Awareness",
+        "load_guidance": "Reduce bowling load this week : focus on recovery and technique",
+        "sessions": [
+          {
+            "day": 1,
+            "focus": "Active recovery only",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "focus": "Light technique awareness",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "focus": "Recovery + awareness",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              },
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "focus": "Gentle reintegration",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          }
+        ],
+        "progression": "Only progress to low-amplitude bounds if fatigue symptoms have fully resolved and the bowler feels fresh.",
+        "exit_goal": "Bowler reports feeling fresh; shadow bowling shows no compensation patterns."
+      },
+      "qc_summary": {
+        "status": "passed",
+        "notes": []
+      },
+      "phase_details": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "high",
+          "impulse_proxy": 490411.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 117.9,
+          "loading_rate_proxy_band": "very_low",
+          "heel_share_0_1": 0.369,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.479,
+          "ml_balance_band": "very_low",
+          "heel_to_fore_delay_ms": 65,
+          "pattern": "collapsing_bfc",
+          "coach_text": "Collapsing BFC: Extended contact time with slow loading."
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "very_high",
+          "impulse_proxy": 569430.0,
+          "impulse_proxy_band": "very_high",
+          "loading_rate_proxy": 152.1,
+          "loading_rate_proxy_band": "high",
+          "heel_share_0_1": 0.473,
+          "heel_share_band": "high",
+          "ml_balance_0_1": 0.483,
+          "ml_balance_band": "very_low",
+          "heel_to_fore_delay_ms": 85,
+          "pattern": "absorptive_bracing",
+          "coach_text": "Absorptive Bracing: Long contact and high energy absorption."
+        }
+      },
+      "insights": {
+        "BFC": [
+          "Lateral bias at peak load."
+        ],
+        "FFC": [
+          "Front-foot contact time is long → energy leaks and bracing is less stiff.",
+          "Heel-dominant loading → braking tendency.",
+          "Lateral bias at peak load."
+        ]
+      }
+    },
+    {
+      "ball_id": 6,
+      "usable_delivery": true,
+      "phase_summary": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "collapsing_bfc"
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.22,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "absorptive_bracing"
+        }
+      },
+      "interpretation": {
+        "label": "Too Soft Through the Action",
+        "explanation": "You're not attacking the crease. Both legs are absorbing load instead of acting like stiff levers. It feels easy, but you're bleeding pace at every contact.",
+        "what_youre_doing": "Landing softly on both back and front feet, with excessive knee bend and no real 'snap' in the action.",
+        "why_it_happens": "Low intent, under-pacing the run-up, or protecting something without realising it. Can also happen when 'saving yourself' in a long spell.",
+        "confidence": "high",
+        "coach_cues": [
+          "Attack the crease like you mean it",
+          "Be aggressive through the bound",
+          "Brace hard on the front leg : commit to it"
+        ],
+        "impact": {
+          "pace": "Significant : your legs aren't helping you, they're slowing you down",
+          "accuracy": "Variable : the soft base makes it hard to repeat",
+          "load": "Low immediate load, but inefficient patterns lead to fatigue-driven breakdown",
+          "injury_risk": "Low now, but technique erosion is a concern"
+        }
+      },
+      "training_focus": {
+        "title": "Training Focus for the Next 7 Days",
+        "program_name": "Recovery & Technique Awareness",
+        "load_guidance": "Reduce bowling load this week : focus on recovery and technique",
+        "sessions": [
+          {
+            "day": 1,
+            "focus": "Active recovery only",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "focus": "Light technique awareness",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "focus": "Recovery + awareness",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              },
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "focus": "Gentle reintegration",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          }
+        ],
+        "progression": "Only progress to low-amplitude bounds if fatigue symptoms have fully resolved and the bowler feels fresh.",
+        "exit_goal": "Bowler reports feeling fresh; shadow bowling shows no compensation patterns."
+      },
+      "qc_summary": {
+        "status": "passed",
+        "notes": []
+      },
+      "phase_details": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "high",
+          "impulse_proxy": 486089.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 128.0,
+          "loading_rate_proxy_band": "very_low",
+          "heel_share_0_1": 0.413,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.524,
+          "ml_balance_band": "very_high",
+          "heel_to_fore_delay_ms": 80,
+          "pattern": "collapsing_bfc",
+          "coach_text": "Collapsing BFC: Extended contact time with slow loading."
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.22,
+          "ct_band": "very_high",
+          "impulse_proxy": 559555.0,
+          "impulse_proxy_band": "very_high",
+          "loading_rate_proxy": 128.5,
+          "loading_rate_proxy_band": "very_low",
+          "heel_share_0_1": 0.393,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.512,
+          "ml_balance_band": "high",
+          "heel_to_fore_delay_ms": 75,
+          "pattern": "absorptive_bracing",
+          "coach_text": "Absorptive Bracing: Long contact and high energy absorption."
+        }
+      },
+      "insights": {
+        "BFC": [
+          "Medial bias at peak load."
+        ],
+        "FFC": [
+          "Front-foot contact time is long → energy leaks and bracing is less stiff.",
+          "Medial bias at peak load."
+        ]
+      }
+    },
+    {
+      "ball_id": 7,
+      "usable_delivery": true,
+      "phase_summary": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "collapsing_bfc"
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "absorptive_bracing"
+        }
+      },
+      "interpretation": {
+        "label": "Too Soft Through the Action",
+        "explanation": "You're not attacking the crease. Both legs are absorbing load instead of acting like stiff levers. It feels easy, but you're bleeding pace at every contact.",
+        "what_youre_doing": "Landing softly on both back and front feet, with excessive knee bend and no real 'snap' in the action.",
+        "why_it_happens": "Low intent, under-pacing the run-up, or protecting something without realising it. Can also happen when 'saving yourself' in a long spell.",
+        "confidence": "high",
+        "coach_cues": [
+          "Attack the crease like you mean it",
+          "Be aggressive through the bound",
+          "Brace hard on the front leg : commit to it"
+        ],
+        "impact": {
+          "pace": "Significant : your legs aren't helping you, they're slowing you down",
+          "accuracy": "Variable : the soft base makes it hard to repeat",
+          "load": "Low immediate load, but inefficient patterns lead to fatigue-driven breakdown",
+          "injury_risk": "Low now, but technique erosion is a concern"
+        }
+      },
+      "training_focus": {
+        "title": "Training Focus for the Next 7 Days",
+        "program_name": "Recovery & Technique Awareness",
+        "load_guidance": "Reduce bowling load this week : focus on recovery and technique",
+        "sessions": [
+          {
+            "day": 1,
+            "focus": "Active recovery only",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "focus": "Light technique awareness",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "focus": "Recovery + awareness",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              },
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "focus": "Gentle reintegration",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          }
+        ],
+        "progression": "Only progress to low-amplitude bounds if fatigue symptoms have fully resolved and the bowler feels fresh.",
+        "exit_goal": "Bowler reports feeling fresh; shadow bowling shows no compensation patterns."
+      },
+      "qc_summary": {
+        "status": "passed",
+        "notes": []
+      },
+      "phase_details": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "high",
+          "impulse_proxy": 487110.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 123.1,
+          "loading_rate_proxy_band": "very_low",
+          "heel_share_0_1": 0.395,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.513,
+          "ml_balance_band": "high",
+          "heel_to_fore_delay_ms": 75,
+          "pattern": "collapsing_bfc",
+          "coach_text": "Collapsing BFC: Extended contact time with slow loading."
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "very_high",
+          "impulse_proxy": 546710.0,
+          "impulse_proxy_band": "very_high",
+          "loading_rate_proxy": 121.9,
+          "loading_rate_proxy_band": "very_low",
+          "heel_share_0_1": 0.373,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.529,
+          "ml_balance_band": "very_high",
+          "heel_to_fore_delay_ms": 80,
+          "pattern": "absorptive_bracing",
+          "coach_text": "Absorptive Bracing: Long contact and high energy absorption."
+        }
+      },
+      "insights": {
+        "BFC": [
+          "Medial bias at peak load."
+        ],
+        "FFC": [
+          "Front-foot contact time is long → energy leaks and bracing is less stiff.",
+          "Medial bias at peak load."
+        ]
+      }
+    },
+    {
+      "ball_id": 8,
+      "usable_delivery": true,
+      "phase_summary": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "collapsing_bfc"
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "absorptive_bracing"
+        }
+      },
+      "interpretation": {
+        "label": "Too Soft Through the Action",
+        "explanation": "You're not attacking the crease. Both legs are absorbing load instead of acting like stiff levers. It feels easy, but you're bleeding pace at every contact.",
+        "what_youre_doing": "Landing softly on both back and front feet, with excessive knee bend and no real 'snap' in the action.",
+        "why_it_happens": "Low intent, under-pacing the run-up, or protecting something without realising it. Can also happen when 'saving yourself' in a long spell.",
+        "confidence": "high",
+        "coach_cues": [
+          "Attack the crease like you mean it",
+          "Be aggressive through the bound",
+          "Brace hard on the front leg : commit to it"
+        ],
+        "impact": {
+          "pace": "Significant : your legs aren't helping you, they're slowing you down",
+          "accuracy": "Variable : the soft base makes it hard to repeat",
+          "load": "Low immediate load, but inefficient patterns lead to fatigue-driven breakdown",
+          "injury_risk": "Low now, but technique erosion is a concern"
+        }
+      },
+      "training_focus": {
+        "title": "Training Focus for the Next 7 Days",
+        "program_name": "Recovery & Technique Awareness",
+        "load_guidance": "Reduce bowling load this week : focus on recovery and technique",
+        "sessions": [
+          {
+            "day": 1,
+            "focus": "Active recovery only",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "focus": "Light technique awareness",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "focus": "Recovery + awareness",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              },
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "focus": "Gentle reintegration",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          }
+        ],
+        "progression": "Only progress to low-amplitude bounds if fatigue symptoms have fully resolved and the bowler feels fresh.",
+        "exit_goal": "Bowler reports feeling fresh; shadow bowling shows no compensation patterns."
+      },
+      "qc_summary": {
+        "status": "passed",
+        "notes": []
+      },
+      "phase_details": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "high",
+          "impulse_proxy": 481323.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 127.7,
+          "loading_rate_proxy_band": "very_low",
+          "heel_share_0_1": 0.409,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.478,
+          "ml_balance_band": "very_low",
+          "heel_to_fore_delay_ms": 70,
+          "pattern": "collapsing_bfc",
+          "coach_text": "Collapsing BFC: Extended contact time with slow loading."
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "very_high",
+          "impulse_proxy": 570657.0,
+          "impulse_proxy_band": "very_high",
+          "loading_rate_proxy": 144.5,
+          "loading_rate_proxy_band": "high",
+          "heel_share_0_1": 0.414,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.483,
+          "ml_balance_band": "very_low",
+          "heel_to_fore_delay_ms": 85,
+          "pattern": "absorptive_bracing",
+          "coach_text": "Absorptive Bracing: Long contact and high energy absorption."
+        }
+      },
+      "insights": {
+        "BFC": [
+          "Lateral bias at peak load."
+        ],
+        "FFC": [
+          "Front-foot contact time is long → energy leaks and bracing is less stiff.",
+          "Lateral bias at peak load."
+        ]
+      }
+    },
+    {
+      "ball_id": 9,
+      "usable_delivery": true,
+      "phase_summary": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "collapsing_bfc"
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "absorptive_bracing"
+        }
+      },
+      "interpretation": {
+        "label": "Too Soft Through the Action",
+        "explanation": "You're not attacking the crease. Both legs are absorbing load instead of acting like stiff levers. It feels easy, but you're bleeding pace at every contact.",
+        "what_youre_doing": "Landing softly on both back and front feet, with excessive knee bend and no real 'snap' in the action.",
+        "why_it_happens": "Low intent, under-pacing the run-up, or protecting something without realising it. Can also happen when 'saving yourself' in a long spell.",
+        "confidence": "high",
+        "coach_cues": [
+          "Attack the crease like you mean it",
+          "Be aggressive through the bound",
+          "Brace hard on the front leg : commit to it"
+        ],
+        "impact": {
+          "pace": "Significant : your legs aren't helping you, they're slowing you down",
+          "accuracy": "Variable : the soft base makes it hard to repeat",
+          "load": "Low immediate load, but inefficient patterns lead to fatigue-driven breakdown",
+          "injury_risk": "Low now, but technique erosion is a concern"
+        }
+      },
+      "training_focus": {
+        "title": "Training Focus for the Next 7 Days",
+        "program_name": "Recovery & Technique Awareness",
+        "load_guidance": "Reduce bowling load this week : focus on recovery and technique",
+        "sessions": [
+          {
+            "day": 1,
+            "focus": "Active recovery only",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "focus": "Light technique awareness",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "focus": "Recovery + awareness",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              },
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "focus": "Gentle reintegration",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          }
+        ],
+        "progression": "Only progress to low-amplitude bounds if fatigue symptoms have fully resolved and the bowler feels fresh.",
+        "exit_goal": "Bowler reports feeling fresh; shadow bowling shows no compensation patterns."
+      },
+      "qc_summary": {
+        "status": "passed",
+        "notes": []
+      },
+      "phase_details": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "high",
+          "impulse_proxy": 492370.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 118.2,
+          "loading_rate_proxy_band": "very_low",
+          "heel_share_0_1": 0.355,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.532,
+          "ml_balance_band": "very_high",
+          "heel_to_fore_delay_ms": 85,
+          "pattern": "collapsing_bfc",
+          "coach_text": "Collapsing BFC: Extended contact time with slow loading."
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "very_high",
+          "impulse_proxy": 547215.0,
+          "impulse_proxy_band": "very_high",
+          "loading_rate_proxy": 128.2,
+          "loading_rate_proxy_band": "very_low",
+          "heel_share_0_1": 0.378,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.497,
+          "ml_balance_band": "low",
+          "heel_to_fore_delay_ms": 85,
+          "pattern": "absorptive_bracing",
+          "coach_text": "Absorptive Bracing: Long contact and high energy absorption."
+        }
+      },
+      "insights": {
+        "BFC": [
+          "Medial bias at peak load."
+        ],
+        "FFC": [
+          "Front-foot contact time is long → energy leaks and bracing is less stiff.",
+          "Lateral bias at peak load."
+        ]
+      }
+    },
+    {
+      "ball_id": 10,
+      "usable_delivery": true,
+      "phase_summary": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "neutral_bfc"
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "absorptive_bracing"
+        }
+      },
+      "interpretation": {
+        "label": "Tired Legs, Harder Landing",
+        "explanation": "Your back leg is slowing down as fatigue sets in. To keep the pace up, your body is hitting the front leg harder. You're working harder for the same result : or less.",
+        "what_youre_doing": "Allowing back-foot contact to drag as eccentric strength fades, then compensating with aggressive front-leg impact to maintain release speed.",
+        "why_it_happens": "Spell length exceeding current capacity, inadequate recovery between overs, or cumulative load from previous sessions.",
+        "confidence": "high",
+        "coach_cues": [
+          "Rhythm over effort : stop trying to muscle it",
+          "Light feet through the run-up",
+          "If the timing's gone, shorten the spell"
+        ],
+        "impact": {
+          "pace": "Diminishing returns : more effort, same or less speed",
+          "accuracy": "Declining as timing drifts",
+          "load": "Front leg absorbing what the back leg can no longer handle",
+          "injury_risk": "High : this is when injuries happen"
+        }
+      },
+      "training_focus": {
+        "title": "Training Focus for the Next 7 Days",
+        "program_name": "Recovery & Technique Awareness",
+        "load_guidance": "Reduce bowling load this week : focus on recovery and technique",
+        "sessions": [
+          {
+            "day": 1,
+            "focus": "Active recovery only",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "focus": "Light technique awareness",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "focus": "Recovery + awareness",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              },
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "focus": "Gentle reintegration",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          }
+        ],
+        "progression": "Only progress to low-amplitude bounds if fatigue symptoms have fully resolved and the bowler feels fresh.",
+        "exit_goal": "Bowler reports feeling fresh; shadow bowling shows no compensation patterns."
+      },
+      "qc_summary": {
+        "status": "passed",
+        "notes": []
+      },
+      "phase_details": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "high",
+          "impulse_proxy": 490519.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 135.8,
+          "loading_rate_proxy_band": "low",
+          "heel_share_0_1": 0.445,
+          "heel_share_band": "high",
+          "ml_balance_0_1": 0.479,
+          "ml_balance_band": "very_low",
+          "heel_to_fore_delay_ms": 85,
+          "pattern": "neutral_bfc",
+          "coach_text": "Neutral BFC: Loading within expected ranges."
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "very_high",
+          "impulse_proxy": 548778.0,
+          "impulse_proxy_band": "very_high",
+          "loading_rate_proxy": 122.5,
+          "loading_rate_proxy_band": "very_low",
+          "heel_share_0_1": 0.381,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.498,
+          "ml_balance_band": "low",
+          "heel_to_fore_delay_ms": 90,
+          "pattern": "absorptive_bracing",
+          "coach_text": "Absorptive Bracing: Long contact and high energy absorption."
+        }
+      },
+      "insights": {
+        "BFC": [
+          "Heel-dominant loading → braking tendency.",
+          "Lateral bias at peak load."
+        ],
+        "FFC": [
+          "Front-foot contact time is long → energy leaks and bracing is less stiff.",
+          "Lateral bias at peak load."
+        ]
+      }
+    },
+    {
+      "ball_id": 11,
+      "usable_delivery": true,
+      "phase_summary": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "neutral_bfc"
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "absorptive_bracing"
+        }
+      },
+      "interpretation": {
+        "label": "Tired Legs, Harder Landing",
+        "explanation": "Your back leg is slowing down as fatigue sets in. To keep the pace up, your body is hitting the front leg harder. You're working harder for the same result : or less.",
+        "what_youre_doing": "Allowing back-foot contact to drag as eccentric strength fades, then compensating with aggressive front-leg impact to maintain release speed.",
+        "why_it_happens": "Spell length exceeding current capacity, inadequate recovery between overs, or cumulative load from previous sessions.",
+        "confidence": "high",
+        "coach_cues": [
+          "Rhythm over effort : stop trying to muscle it",
+          "Light feet through the run-up",
+          "If the timing's gone, shorten the spell"
+        ],
+        "impact": {
+          "pace": "Diminishing returns : more effort, same or less speed",
+          "accuracy": "Declining as timing drifts",
+          "load": "Front leg absorbing what the back leg can no longer handle",
+          "injury_risk": "High : this is when injuries happen"
+        }
+      },
+      "training_focus": {
+        "title": "Training Focus for the Next 7 Days",
+        "program_name": "Recovery & Technique Awareness",
+        "load_guidance": "Reduce bowling load this week : focus on recovery and technique",
+        "sessions": [
+          {
+            "day": 1,
+            "focus": "Active recovery only",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "focus": "Light technique awareness",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "focus": "Recovery + awareness",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              },
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "focus": "Gentle reintegration",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          }
+        ],
+        "progression": "Only progress to low-amplitude bounds if fatigue symptoms have fully resolved and the bowler feels fresh.",
+        "exit_goal": "Bowler reports feeling fresh; shadow bowling shows no compensation patterns."
+      },
+      "qc_summary": {
+        "status": "passed",
+        "notes": []
+      },
+      "phase_details": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "high",
+          "impulse_proxy": 478551.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 133.8,
+          "loading_rate_proxy_band": "low",
+          "heel_share_0_1": 0.431,
+          "heel_share_band": "low",
+          "ml_balance_0_1": 0.54,
+          "ml_balance_band": "very_high",
+          "heel_to_fore_delay_ms": 80,
+          "pattern": "neutral_bfc",
+          "coach_text": "Neutral BFC: Loading within expected ranges."
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "very_high",
+          "impulse_proxy": 557118.0,
+          "impulse_proxy_band": "very_high",
+          "loading_rate_proxy": 124.4,
+          "loading_rate_proxy_band": "very_low",
+          "heel_share_0_1": 0.369,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.513,
+          "ml_balance_band": "high",
+          "heel_to_fore_delay_ms": 90,
+          "pattern": "absorptive_bracing",
+          "coach_text": "Absorptive Bracing: Long contact and high energy absorption."
+        }
+      },
+      "insights": {
+        "BFC": [
+          "Medial bias at peak load."
+        ],
+        "FFC": [
+          "Front-foot contact time is long → energy leaks and bracing is less stiff.",
+          "Medial bias at peak load."
+        ]
+      }
+    },
+    {
+      "ball_id": 12,
+      "usable_delivery": true,
+      "phase_summary": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "collapsing_bfc"
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "absorptive_bracing"
+        }
+      },
+      "interpretation": {
+        "label": "Too Soft Through the Action",
+        "explanation": "You're not attacking the crease. Both legs are absorbing load instead of acting like stiff levers. It feels easy, but you're bleeding pace at every contact.",
+        "what_youre_doing": "Landing softly on both back and front feet, with excessive knee bend and no real 'snap' in the action.",
+        "why_it_happens": "Low intent, under-pacing the run-up, or protecting something without realising it. Can also happen when 'saving yourself' in a long spell.",
+        "confidence": "high",
+        "coach_cues": [
+          "Attack the crease like you mean it",
+          "Be aggressive through the bound",
+          "Brace hard on the front leg : commit to it"
+        ],
+        "impact": {
+          "pace": "Significant : your legs aren't helping you, they're slowing you down",
+          "accuracy": "Variable : the soft base makes it hard to repeat",
+          "load": "Low immediate load, but inefficient patterns lead to fatigue-driven breakdown",
+          "injury_risk": "Low now, but technique erosion is a concern"
+        }
+      },
+      "training_focus": {
+        "title": "Training Focus for the Next 7 Days",
+        "program_name": "Recovery & Technique Awareness",
+        "load_guidance": "Reduce bowling load this week : focus on recovery and technique",
+        "sessions": [
+          {
+            "day": 1,
+            "focus": "Active recovery only",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "focus": "Light technique awareness",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "focus": "Recovery + awareness",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              },
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "focus": "Gentle reintegration",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          }
+        ],
+        "progression": "Only progress to low-amplitude bounds if fatigue symptoms have fully resolved and the bowler feels fresh.",
+        "exit_goal": "Bowler reports feeling fresh; shadow bowling shows no compensation patterns."
+      },
+      "qc_summary": {
+        "status": "passed",
+        "notes": []
+      },
+      "phase_details": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "high",
+          "impulse_proxy": 472502.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 119.4,
+          "loading_rate_proxy_band": "very_low",
+          "heel_share_0_1": 0.399,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.503,
+          "ml_balance_band": "high",
+          "heel_to_fore_delay_ms": 80,
+          "pattern": "collapsing_bfc",
+          "coach_text": "Collapsing BFC: Extended contact time with slow loading."
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "very_high",
+          "impulse_proxy": 546235.0,
+          "impulse_proxy_band": "very_high",
+          "loading_rate_proxy": 127.0,
+          "loading_rate_proxy_band": "very_low",
+          "heel_share_0_1": 0.39,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.482,
+          "ml_balance_band": "very_low",
+          "heel_to_fore_delay_ms": 75,
+          "pattern": "absorptive_bracing",
+          "coach_text": "Absorptive Bracing: Long contact and high energy absorption."
+        }
+      },
+      "insights": {
+        "BFC": [
+          "Medial bias at peak load."
+        ],
+        "FFC": [
+          "Front-foot contact time is long → energy leaks and bracing is less stiff.",
+          "Lateral bias at peak load."
+        ]
+      }
+    },
+    {
+      "ball_id": 13,
+      "usable_delivery": true,
+      "phase_summary": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "neutral_bfc"
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "absorptive_bracing"
+        }
+      },
+      "interpretation": {
+        "label": "Tired Legs, Harder Landing",
+        "explanation": "Your back leg is slowing down as fatigue sets in. To keep the pace up, your body is hitting the front leg harder. You're working harder for the same result : or less.",
+        "what_youre_doing": "Allowing back-foot contact to drag as eccentric strength fades, then compensating with aggressive front-leg impact to maintain release speed.",
+        "why_it_happens": "Spell length exceeding current capacity, inadequate recovery between overs, or cumulative load from previous sessions.",
+        "confidence": "high",
+        "coach_cues": [
+          "Rhythm over effort : stop trying to muscle it",
+          "Light feet through the run-up",
+          "If the timing's gone, shorten the spell"
+        ],
+        "impact": {
+          "pace": "Diminishing returns : more effort, same or less speed",
+          "accuracy": "Declining as timing drifts",
+          "load": "Front leg absorbing what the back leg can no longer handle",
+          "injury_risk": "High : this is when injuries happen"
+        }
+      },
+      "training_focus": {
+        "title": "Training Focus for the Next 7 Days",
+        "program_name": "Recovery & Technique Awareness",
+        "load_guidance": "Reduce bowling load this week : focus on recovery and technique",
+        "sessions": [
+          {
+            "day": 1,
+            "focus": "Active recovery only",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "focus": "Light technique awareness",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "focus": "Recovery + awareness",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              },
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "focus": "Gentle reintegration",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          }
+        ],
+        "progression": "Only progress to low-amplitude bounds if fatigue symptoms have fully resolved and the bowler feels fresh.",
+        "exit_goal": "Bowler reports feeling fresh; shadow bowling shows no compensation patterns."
+      },
+      "qc_summary": {
+        "status": "passed",
+        "notes": []
+      },
+      "phase_details": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "high",
+          "impulse_proxy": 496218.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 136.6,
+          "loading_rate_proxy_band": "low",
+          "heel_share_0_1": 0.435,
+          "heel_share_band": "low",
+          "ml_balance_0_1": 0.491,
+          "ml_balance_band": "low",
+          "heel_to_fore_delay_ms": 90,
+          "pattern": "neutral_bfc",
+          "coach_text": "Neutral BFC: Loading within expected ranges."
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "very_high",
+          "impulse_proxy": 528544.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 114.0,
+          "loading_rate_proxy_band": "very_low",
+          "heel_share_0_1": 0.347,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.527,
+          "ml_balance_band": "very_high",
+          "heel_to_fore_delay_ms": 85,
+          "pattern": "absorptive_bracing",
+          "coach_text": "Absorptive Bracing: Long contact and high energy absorption."
+        }
+      },
+      "insights": {
+        "BFC": [
+          "Lateral bias at peak load."
+        ],
+        "FFC": [
+          "Front-foot contact time is long → energy leaks and bracing is less stiff.",
+          "Medial bias at peak load."
+        ]
+      }
+    },
+    {
+      "ball_id": 14,
+      "usable_delivery": true,
+      "phase_summary": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "collapsing_bfc"
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "absorptive_bracing"
+        }
+      },
+      "interpretation": {
+        "label": "Too Soft Through the Action",
+        "explanation": "You're not attacking the crease. Both legs are absorbing load instead of acting like stiff levers. It feels easy, but you're bleeding pace at every contact.",
+        "what_youre_doing": "Landing softly on both back and front feet, with excessive knee bend and no real 'snap' in the action.",
+        "why_it_happens": "Low intent, under-pacing the run-up, or protecting something without realising it. Can also happen when 'saving yourself' in a long spell.",
+        "confidence": "high",
+        "coach_cues": [
+          "Attack the crease like you mean it",
+          "Be aggressive through the bound",
+          "Brace hard on the front leg : commit to it"
+        ],
+        "impact": {
+          "pace": "Significant : your legs aren't helping you, they're slowing you down",
+          "accuracy": "Variable : the soft base makes it hard to repeat",
+          "load": "Low immediate load, but inefficient patterns lead to fatigue-driven breakdown",
+          "injury_risk": "Low now, but technique erosion is a concern"
+        }
+      },
+      "training_focus": {
+        "title": "Training Focus for the Next 7 Days",
+        "program_name": "Recovery & Technique Awareness",
+        "load_guidance": "Reduce bowling load this week : focus on recovery and technique",
+        "sessions": [
+          {
+            "day": 1,
+            "focus": "Active recovery only",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "focus": "Light technique awareness",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "focus": "Recovery + awareness",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              },
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "focus": "Gentle reintegration",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          }
+        ],
+        "progression": "Only progress to low-amplitude bounds if fatigue symptoms have fully resolved and the bowler feels fresh.",
+        "exit_goal": "Bowler reports feeling fresh; shadow bowling shows no compensation patterns."
+      },
+      "qc_summary": {
+        "status": "passed",
+        "notes": []
+      },
+      "phase_details": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "high",
+          "impulse_proxy": 472187.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 114.2,
+          "loading_rate_proxy_band": "very_low",
+          "heel_share_0_1": 0.375,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.472,
+          "ml_balance_band": "very_low",
+          "heel_to_fore_delay_ms": 75,
+          "pattern": "collapsing_bfc",
+          "coach_text": "Collapsing BFC: Extended contact time with slow loading."
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "very_high",
+          "impulse_proxy": 548603.0,
+          "impulse_proxy_band": "very_high",
+          "loading_rate_proxy": 154.9,
+          "loading_rate_proxy_band": "high",
+          "heel_share_0_1": 0.481,
+          "heel_share_band": "high",
+          "ml_balance_0_1": 0.501,
+          "ml_balance_band": "high",
+          "heel_to_fore_delay_ms": 80,
+          "pattern": "absorptive_bracing",
+          "coach_text": "Absorptive Bracing: Long contact and high energy absorption."
+        }
+      },
+      "insights": {
+        "BFC": [
+          "Lateral bias at peak load."
+        ],
+        "FFC": [
+          "Front-foot contact time is long → energy leaks and bracing is less stiff.",
+          "Heel-dominant loading → braking tendency.",
+          "Medial bias at peak load."
+        ]
+      }
+    },
+    {
+      "ball_id": 15,
+      "usable_delivery": true,
+      "phase_summary": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "collapsing_bfc"
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "absorptive_bracing"
+        }
+      },
+      "interpretation": {
+        "label": "Too Soft Through the Action",
+        "explanation": "You're not attacking the crease. Both legs are absorbing load instead of acting like stiff levers. It feels easy, but you're bleeding pace at every contact.",
+        "what_youre_doing": "Landing softly on both back and front feet, with excessive knee bend and no real 'snap' in the action.",
+        "why_it_happens": "Low intent, under-pacing the run-up, or protecting something without realising it. Can also happen when 'saving yourself' in a long spell.",
+        "confidence": "high",
+        "coach_cues": [
+          "Attack the crease like you mean it",
+          "Be aggressive through the bound",
+          "Brace hard on the front leg : commit to it"
+        ],
+        "impact": {
+          "pace": "Significant : your legs aren't helping you, they're slowing you down",
+          "accuracy": "Variable : the soft base makes it hard to repeat",
+          "load": "Low immediate load, but inefficient patterns lead to fatigue-driven breakdown",
+          "injury_risk": "Low now, but technique erosion is a concern"
+        }
+      },
+      "training_focus": {
+        "title": "Training Focus for the Next 7 Days",
+        "program_name": "Recovery & Technique Awareness",
+        "load_guidance": "Reduce bowling load this week : focus on recovery and technique",
+        "sessions": [
+          {
+            "day": 1,
+            "focus": "Active recovery only",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "focus": "Light technique awareness",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "focus": "Recovery + awareness",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              },
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "focus": "Gentle reintegration",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          }
+        ],
+        "progression": "Only progress to low-amplitude bounds if fatigue symptoms have fully resolved and the bowler feels fresh.",
+        "exit_goal": "Bowler reports feeling fresh; shadow bowling shows no compensation patterns."
+      },
+      "qc_summary": {
+        "status": "passed",
+        "notes": []
+      },
+      "phase_details": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "high",
+          "impulse_proxy": 484797.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 116.8,
+          "loading_rate_proxy_band": "very_low",
+          "heel_share_0_1": 0.38,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.495,
+          "ml_balance_band": "low",
+          "heel_to_fore_delay_ms": 90,
+          "pattern": "collapsing_bfc",
+          "coach_text": "Collapsing BFC: Extended contact time with slow loading."
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "very_high",
+          "impulse_proxy": 537198.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 131.3,
+          "loading_rate_proxy_band": "low",
+          "heel_share_0_1": 0.395,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.486,
+          "ml_balance_band": "very_low",
+          "heel_to_fore_delay_ms": 85,
+          "pattern": "absorptive_bracing",
+          "coach_text": "Absorptive Bracing: Long contact and high energy absorption."
+        }
+      },
+      "insights": {
+        "BFC": [
+          "Lateral bias at peak load."
+        ],
+        "FFC": [
+          "Front-foot contact time is long → energy leaks and bracing is less stiff.",
+          "Lateral bias at peak load."
+        ]
+      }
+    },
+    {
+      "ball_id": 16,
+      "usable_delivery": true,
+      "phase_summary": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "neutral_bfc"
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "absorptive_bracing"
+        }
+      },
+      "interpretation": {
+        "label": "Tired Legs, Harder Landing",
+        "explanation": "Your back leg is slowing down as fatigue sets in. To keep the pace up, your body is hitting the front leg harder. You're working harder for the same result : or less.",
+        "what_youre_doing": "Allowing back-foot contact to drag as eccentric strength fades, then compensating with aggressive front-leg impact to maintain release speed.",
+        "why_it_happens": "Spell length exceeding current capacity, inadequate recovery between overs, or cumulative load from previous sessions.",
+        "confidence": "high",
+        "coach_cues": [
+          "Rhythm over effort : stop trying to muscle it",
+          "Light feet through the run-up",
+          "If the timing's gone, shorten the spell"
+        ],
+        "impact": {
+          "pace": "Diminishing returns : more effort, same or less speed",
+          "accuracy": "Declining as timing drifts",
+          "load": "Front leg absorbing what the back leg can no longer handle",
+          "injury_risk": "High : this is when injuries happen"
+        }
+      },
+      "training_focus": {
+        "title": "Training Focus for the Next 7 Days",
+        "program_name": "Recovery & Technique Awareness",
+        "load_guidance": "Reduce bowling load this week : focus on recovery and technique",
+        "sessions": [
+          {
+            "day": 1,
+            "focus": "Active recovery only",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "focus": "Light technique awareness",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "focus": "Recovery + awareness",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              },
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "focus": "Gentle reintegration",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          }
+        ],
+        "progression": "Only progress to low-amplitude bounds if fatigue symptoms have fully resolved and the bowler feels fresh.",
+        "exit_goal": "Bowler reports feeling fresh; shadow bowling shows no compensation patterns."
+      },
+      "qc_summary": {
+        "status": "passed",
+        "notes": []
+      },
+      "phase_details": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "high",
+          "impulse_proxy": 493804.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 136.6,
+          "loading_rate_proxy_band": "low",
+          "heel_share_0_1": 0.441,
+          "heel_share_band": "low",
+          "ml_balance_0_1": 0.513,
+          "ml_balance_band": "high",
+          "heel_to_fore_delay_ms": 80,
+          "pattern": "neutral_bfc",
+          "coach_text": "Neutral BFC: Loading within expected ranges."
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "very_high",
+          "impulse_proxy": 549435.0,
+          "impulse_proxy_band": "very_high",
+          "loading_rate_proxy": 128.1,
+          "loading_rate_proxy_band": "very_low",
+          "heel_share_0_1": 0.405,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.509,
+          "ml_balance_band": "high",
+          "heel_to_fore_delay_ms": 85,
+          "pattern": "absorptive_bracing",
+          "coach_text": "Absorptive Bracing: Long contact and high energy absorption."
+        }
+      },
+      "insights": {
+        "BFC": [
+          "Medial bias at peak load."
+        ],
+        "FFC": [
+          "Front-foot contact time is long → energy leaks and bracing is less stiff.",
+          "Medial bias at peak load."
+        ]
+      }
+    },
+    {
+      "ball_id": 17,
+      "usable_delivery": true,
+      "phase_summary": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "neutral_bfc"
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "absorptive_bracing"
+        }
+      },
+      "interpretation": {
+        "label": "Tired Legs, Harder Landing",
+        "explanation": "Your back leg is slowing down as fatigue sets in. To keep the pace up, your body is hitting the front leg harder. You're working harder for the same result : or less.",
+        "what_youre_doing": "Allowing back-foot contact to drag as eccentric strength fades, then compensating with aggressive front-leg impact to maintain release speed.",
+        "why_it_happens": "Spell length exceeding current capacity, inadequate recovery between overs, or cumulative load from previous sessions.",
+        "confidence": "high",
+        "coach_cues": [
+          "Rhythm over effort : stop trying to muscle it",
+          "Light feet through the run-up",
+          "If the timing's gone, shorten the spell"
+        ],
+        "impact": {
+          "pace": "Diminishing returns : more effort, same or less speed",
+          "accuracy": "Declining as timing drifts",
+          "load": "Front leg absorbing what the back leg can no longer handle",
+          "injury_risk": "High : this is when injuries happen"
+        }
+      },
+      "training_focus": {
+        "title": "Training Focus for the Next 7 Days",
+        "program_name": "Recovery & Technique Awareness",
+        "load_guidance": "Reduce bowling load this week : focus on recovery and technique",
+        "sessions": [
+          {
+            "day": 1,
+            "focus": "Active recovery only",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "focus": "Light technique awareness",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "focus": "Recovery + awareness",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              },
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "focus": "Gentle reintegration",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          }
+        ],
+        "progression": "Only progress to low-amplitude bounds if fatigue symptoms have fully resolved and the bowler feels fresh.",
+        "exit_goal": "Bowler reports feeling fresh; shadow bowling shows no compensation patterns."
+      },
+      "qc_summary": {
+        "status": "passed",
+        "notes": []
+      },
+      "phase_details": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "high",
+          "impulse_proxy": 489497.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 134.7,
+          "loading_rate_proxy_band": "low",
+          "heel_share_0_1": 0.442,
+          "heel_share_band": "high",
+          "ml_balance_0_1": 0.475,
+          "ml_balance_band": "very_low",
+          "heel_to_fore_delay_ms": 80,
+          "pattern": "neutral_bfc",
+          "coach_text": "Neutral BFC: Loading within expected ranges."
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "very_high",
+          "impulse_proxy": 540613.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 126.2,
+          "loading_rate_proxy_band": "very_low",
+          "heel_share_0_1": 0.393,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.484,
+          "ml_balance_band": "very_low",
+          "heel_to_fore_delay_ms": 90,
+          "pattern": "absorptive_bracing",
+          "coach_text": "Absorptive Bracing: Long contact and high energy absorption."
+        }
+      },
+      "insights": {
+        "BFC": [
+          "Heel-dominant loading → braking tendency.",
+          "Lateral bias at peak load."
+        ],
+        "FFC": [
+          "Front-foot contact time is long → energy leaks and bracing is less stiff.",
+          "Lateral bias at peak load."
+        ]
+      }
+    },
+    {
+      "ball_id": 18,
+      "usable_delivery": true,
+      "phase_summary": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "collapsing_bfc"
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "developing",
+          "impulse_band": "elite",
+          "pattern": "absorptive_bracing"
+        }
+      },
+      "interpretation": {
+        "label": "Too Soft Through the Action",
+        "explanation": "You're not attacking the crease. Both legs are absorbing load instead of acting like stiff levers. It feels easy, but you're bleeding pace at every contact.",
+        "what_youre_doing": "Landing softly on both back and front feet, with excessive knee bend and no real 'snap' in the action.",
+        "why_it_happens": "Low intent, under-pacing the run-up, or protecting something without realising it. Can also happen when 'saving yourself' in a long spell.",
+        "confidence": "high",
+        "coach_cues": [
+          "Attack the crease like you mean it",
+          "Be aggressive through the bound",
+          "Brace hard on the front leg : commit to it"
+        ],
+        "impact": {
+          "pace": "Significant : your legs aren't helping you, they're slowing you down",
+          "accuracy": "Variable : the soft base makes it hard to repeat",
+          "load": "Low immediate load, but inefficient patterns lead to fatigue-driven breakdown",
+          "injury_risk": "Low now, but technique erosion is a concern"
+        }
+      },
+      "training_focus": {
+        "title": "Training Focus for the Next 7 Days",
+        "program_name": "Recovery & Technique Awareness",
+        "load_guidance": "Reduce bowling load this week : focus on recovery and technique",
+        "sessions": [
+          {
+            "day": 1,
+            "focus": "Active recovery only",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "focus": "Light technique awareness",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "focus": "Recovery + awareness",
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 sets x 5 mins",
+                "key_points": [
+                  "Walk at a natural, comfortable pace",
+                  "Focus on deep, controlled breathing",
+                  "Keep the body relaxed"
+                ]
+              },
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "focus": "Gentle reintegration",
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2–3 sets x 6–8 deliveries",
+                "key_points": [
+                  "Walk through the action at 20% speed",
+                  "Snap the front knee into extension at FFC",
+                  "Feel the 'block' of the front leg"
+                ]
+              }
+            ]
+          }
+        ],
+        "progression": "Only progress to low-amplitude bounds if fatigue symptoms have fully resolved and the bowler feels fresh.",
+        "exit_goal": "Bowler reports feeling fresh; shadow bowling shows no compensation patterns."
+      },
+      "qc_summary": {
+        "status": "passed",
+        "notes": []
+      },
+      "phase_details": {
+        "BFC": {
+          "foot": "Right",
+          "ct_s": 0.205,
+          "ct_band": "high",
+          "impulse_proxy": 485758.0,
+          "impulse_proxy_band": "high",
+          "loading_rate_proxy": 112.1,
+          "loading_rate_proxy_band": "very_low",
+          "heel_share_0_1": 0.349,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.489,
+          "ml_balance_band": "low",
+          "heel_to_fore_delay_ms": 70,
+          "pattern": "collapsing_bfc",
+          "coach_text": "Collapsing BFC: Extended contact time with slow loading."
+        },
+        "FFC": {
+          "foot": "Left",
+          "ct_s": 0.215,
+          "ct_band": "very_high",
+          "impulse_proxy": 559920.0,
+          "impulse_proxy_band": "very_high",
+          "loading_rate_proxy": 124.8,
+          "loading_rate_proxy_band": "very_low",
+          "heel_share_0_1": 0.369,
+          "heel_share_band": "very_low",
+          "ml_balance_0_1": 0.469,
+          "ml_balance_band": "very_low",
+          "heel_to_fore_delay_ms": 75,
+          "pattern": "absorptive_bracing",
+          "coach_text": "Absorptive Bracing: Long contact and high energy absorption."
+        }
+      },
+      "insights": {
+        "BFC": [
+          "Lateral bias at peak load."
+        ],
+        "FFC": [
+          "Front-foot contact time is long → energy leaks and bracing is less stiff.",
+          "Lateral bias at peak load."
+        ]
+      }
+    }
+  ],
+  "session_summary": {
+    "key_observations": [
+      "Tired Legs, Harder Landing (9/18)",
+      "Too Soft Through the Action (9/18)"
+    ],
+    "trend_alerts": [
+      "Force output declining through session"
+    ],
+    "load_guidance": "Monitor closely : session trends suggest building fatigue.",
+    "usable_deliveries": 18,
+    "total_deliveries": 18,
+    "data_quality": "Usable deliveries: 18/18"
+  },
+  "analytics_insights": {
+    "by_phase": {
+      "RUNUP_LAST": {
+        "dashboard": [
+          {
+            "metric": "ct_s",
+            "value": 0.165,
+            "iqr": [
+              0.165,
+              0.165
+            ],
+            "status": "good",
+            "meaning": "Contact time: lower is quicker/stiffer; higher is longer/softer."
+          },
+          {
+            "metric": "impulse_proxy",
+            "value": 336170.5,
+            "iqr": [
+              334686.75,
+              342488.0
+            ],
+            "status": "good",
+            "meaning": "Impulse proxy: total load over contact."
+          },
+          {
+            "metric": "peak_proxy",
+            "value": 11079.0,
+            "iqr": [
+              10969.5,
+              11164.25
+            ],
+            "status": "good",
+            "meaning": "Peak proxy: maximum instantaneous load."
+          },
+          {
+            "metric": "loading_rate_proxy",
+            "value": 133.9,
+            "iqr": [
+              127.606,
+              146.483
+            ],
+            "status": "concern",
+            "meaning": "Loading-rate proxy: sharpness of impact/bracing."
+          },
+          {
+            "metric": "heel_share_0_1",
+            "value": 0.441,
+            "iqr": [
+              0.426,
+              0.481
+            ],
+            "status": "concern",
+            "meaning": "Heel share: fraction of load under heel."
+          },
+          {
+            "metric": "ml_balance_0_1",
+            "value": 0.498,
+            "iqr": [
+              0.49,
+              0.51
+            ],
+            "status": "monitor",
+            "meaning": "ML balance: 0=lateral, 1=medial at peak load."
+          }
+        ],
+        "what_is_going_well": [
+          {
+            "title": "Repeatable run-up rhythm",
+            "claim": "Contact timing in the final stride is consistent across deliveries.",
+            "why_it_matters": "Stable approach rhythm supports momentum transfer into the crease.",
+            "evidence": {
+              "phase": "RUNUP_LAST",
+              "metrics": [
+                {
+                  "metric": "ct_s",
+                  "value": 0.165,
+                  "unit": "s",
+                  "note": "stability 0.000"
+                }
+              ],
+              "confidence": "high"
+            },
+            "keep_doing": [
+              "Maintain current tempo and stride length through the run-up."
+            ]
+          }
+        ],
+        "what_is_costing_you": [
+          {
+            "title": "Monitor: Approach drive fading late spell",
+            "claim": "Run-up force output is trending down across the spell.",
+            "why_it_matters": "Reduced drive means less momentum into the crease.",
+            "evidence": {
+              "phase": "RUNUP_LAST",
+              "metrics": [
+                {
+                  "metric": "loading_rate_proxy",
+                  "delta_pct": -1.3,
+                  "unit": "%",
+                  "note": "slope=-0.0598, R²=0.00"
+                }
+              ],
+              "confidence": "low"
+            },
+            "risk_if_ignored": "Momentum loss and technique breakdown late.",
+            "what_to_try": [
+              "Shorten run-up if fatigued",
+              "Focus on rhythm over effort"
+            ]
+          },
+          {
+            "title": "Monitor: Run-up power declining (fatigue signature)",
+            "claim": "Force proxy in the final stride decreases from start to end.",
+            "why_it_matters": "Lower approach power reduces delivery momentum.",
+            "evidence": {
+              "phase": "RUNUP_LAST",
+              "metrics": [
+                {
+                  "metric": "impulse_proxy",
+                  "delta_pct": -2.7,
+                  "unit": "%",
+                  "note": "slope=-737.5686, R²=0.05"
+                }
+              ],
+              "confidence": "low"
+            },
+            "risk_if_ignored": "Speed drops and compensations rise.",
+            "what_to_try": [
+              "Conditioning/rest block",
+              "Maintain rhythm, reduce intensity"
+            ]
+          },
+          {
+            "title": "Monitor: Run-up power declining (fatigue signature)",
+            "claim": "Force proxy in the final stride decreases from start to end.",
+            "why_it_matters": "Lower approach power reduces delivery momentum.",
+            "evidence": {
+              "phase": "RUNUP_LAST",
+              "metrics": [
+                {
+                  "metric": "peak_proxy",
+                  "delta_pct": -1.0,
+                  "unit": "%",
+                  "note": "slope=-9.0609, R²=0.10"
+                }
+              ],
+              "confidence": "low"
+            },
+            "risk_if_ignored": "Speed drops and compensations rise.",
+            "what_to_try": [
+              "Conditioning/rest block",
+              "Maintain rhythm, reduce intensity"
+            ]
+          }
+        ],
+        "what_to_do_next": [
+          {
+            "priority": 1,
+            "action": "Reinforce stiffness and manage spell length.",
+            "why": "Sustain bracing/drive late.",
+            "targets_next_session": [
+              {
+                "metric": "loading_rate_proxy",
+                "target": "Last-third within -5% of first-third"
+              }
+            ],
+            "drills": [
+              {
+                "name": "Low Amplitude Bounds",
+                "dosage": "3 x 15m"
+              }
+            ]
+          },
+          {
+            "priority": 2,
+            "action": "Add conditioning/rest and protect rhythm.",
+            "why": "Preserve force output.",
+            "targets_next_session": [
+              {
+                "metric": "impulse_proxy",
+                "target": "Last-third within -3% of first-third"
+              }
+            ],
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 x 5 mins"
+              }
+            ]
+          }
+        ]
+      },
+      "BFC": {
+        "dashboard": [
+          {
+            "metric": "ct_s",
+            "value": 0.205,
+            "iqr": [
+              0.205,
+              0.205
+            ],
+            "status": "good",
+            "meaning": "Contact time: lower is quicker/stiffer; higher is longer/softer."
+          },
+          {
+            "metric": "impulse_proxy",
+            "value": 487264.5,
+            "iqr": [
+              486194.75,
+              489812.5
+            ],
+            "status": "good",
+            "meaning": "Impulse proxy: total load over contact."
+          },
+          {
+            "metric": "peak_proxy",
+            "value": 13474.5,
+            "iqr": [
+              13410.25,
+              13549.25
+            ],
+            "status": "good",
+            "meaning": "Peak proxy: maximum instantaneous load."
+          },
+          {
+            "metric": "loading_rate_proxy",
+            "value": 135.7,
+            "iqr": [
+              129.439,
+              140.195
+            ],
+            "status": "monitor",
+            "meaning": "Loading-rate proxy: sharpness of impact/bracing."
+          },
+          {
+            "metric": "heel_share_0_1",
+            "value": 0.444,
+            "iqr": [
+              0.418,
+              0.462
+            ],
+            "status": "concern",
+            "meaning": "Heel share: fraction of load under heel."
+          },
+          {
+            "metric": "ml_balance_0_1",
+            "value": 0.493,
+            "iqr": [
+              0.474,
+              0.508
+            ],
+            "status": "monitor",
+            "meaning": "ML balance: 0=lateral, 1=medial at peak load."
+          }
+        ],
+        "what_is_going_well": [
+          {
+            "title": "Stable back-foot platform",
+            "claim": "Back-foot contact time is consistent across deliveries.",
+            "why_it_matters": "Consistent platform timing supports clean rotation into FFC.",
+            "evidence": {
+              "phase": "BFC",
+              "metrics": [
+                {
+                  "metric": "ct_s",
+                  "value": 0.205,
+                  "unit": "s",
+                  "note": "stability 0.000"
+                }
+              ],
+              "confidence": "high"
+            },
+            "keep_doing": [
+              "Maintain current foot placement and snap timing."
+            ]
+          }
+        ],
+        "what_is_costing_you": [
+          {
+            "title": "Monitor: Entry stiffness fading late spell",
+            "claim": "Back-foot elasticity is declining across the spell.",
+            "why_it_matters": "Less snap at BFC reduces rotation efficiency and drive.",
+            "evidence": {
+              "phase": "BFC",
+              "metrics": [
+                {
+                  "metric": "loading_rate_proxy",
+                  "delta_pct": -7.3,
+                  "unit": "%",
+                  "note": "slope=-0.8272, R²=0.17"
+                }
+              ],
+              "confidence": "low"
+            },
+            "risk_if_ignored": "Momentum loss and technique breakdown late.",
+            "what_to_try": [
+              "Ankle stiffness drills",
+              "Pogo hops between overs"
+            ]
+          },
+          {
+            "title": "Monitor: Back-foot power declining (fatigue signature)",
+            "claim": "Force output at BFC decreases from start to end of spell.",
+            "why_it_matters": "Lower BFC power reduces bound drive.",
+            "evidence": {
+              "phase": "BFC",
+              "metrics": [
+                {
+                  "metric": "impulse_proxy",
+                  "delta_pct": 0.1,
+                  "unit": "%",
+                  "note": "slope=-131.3385, R²=0.01"
+                }
+              ],
+              "confidence": "low"
+            },
+            "risk_if_ignored": "Speed drops and compensations rise.",
+            "what_to_try": [
+              "Conditioning for elastic power",
+              "Protect rhythm with load management"
+            ]
+          },
+          {
+            "title": "Monitor: Back-foot power declining (fatigue signature)",
+            "claim": "Force output at BFC decreases from start to end of spell.",
+            "why_it_matters": "Lower BFC power reduces bound drive.",
+            "evidence": {
+              "phase": "BFC",
+              "metrics": [
+                {
+                  "metric": "peak_proxy",
+                  "delta_pct": -0.1,
+                  "unit": "%",
+                  "note": "slope=-4.6718, R²=0.02"
+                }
+              ],
+              "confidence": "low"
+            },
+            "risk_if_ignored": "Speed drops and compensations rise.",
+            "what_to_try": [
+              "Conditioning for elastic power",
+              "Protect rhythm with load management"
+            ]
+          }
+        ],
+        "what_to_do_next": [
+          {
+            "priority": 1,
+            "action": "Reinforce stiffness and manage spell length.",
+            "why": "Sustain bracing/drive late.",
+            "targets_next_session": [
+              {
+                "metric": "loading_rate_proxy",
+                "target": "Last-third within -5% of first-third"
+              }
+            ],
+            "drills": [
+              {
+                "name": "Ankle Stiffness Pogos",
+                "dosage": "3 x 20 reps"
+              }
+            ]
+          },
+          {
+            "priority": 2,
+            "action": "Add conditioning/rest and protect rhythm.",
+            "why": "Preserve force output.",
+            "targets_next_session": [
+              {
+                "metric": "impulse_proxy",
+                "target": "Last-third within -3% of first-third"
+              }
+            ],
+            "drills": [
+              {
+                "name": "Isometric BFC Stability Hold",
+                "dosage": "3 x 10s"
+              }
+            ]
+          }
+        ]
+      },
+      "FFC": {
+        "dashboard": [
+          {
+            "metric": "ct_s",
+            "value": 0.215,
+            "iqr": [
+              0.215,
+              0.215
+            ],
+            "status": "good",
+            "meaning": "Contact time: lower is quicker/stiffer; higher is longer/softer."
+          },
+          {
+            "metric": "impulse_proxy",
+            "value": 551964.0,
+            "iqr": [
+              546988.25,
+              558322.0
+            ],
+            "status": "good",
+            "meaning": "Impulse proxy: total load over contact."
+          },
+          {
+            "metric": "peak_proxy",
+            "value": 14778.0,
+            "iqr": [
+              14702.25,
+              14811.75
+            ],
+            "status": "good",
+            "meaning": "Peak proxy: maximum instantaneous load."
+          },
+          {
+            "metric": "loading_rate_proxy",
+            "value": 134.1,
+            "iqr": [
+              132.609,
+              147.779
+            ],
+            "status": "concern",
+            "meaning": "Loading-rate proxy: sharpness of impact/bracing."
+          },
+          {
+            "metric": "heel_share_0_1",
+            "value": 0.415,
+            "iqr": [
+              0.409,
+              0.459
+            ],
+            "status": "concern",
+            "meaning": "Heel share: fraction of load under heel."
+          },
+          {
+            "metric": "ml_balance_0_1",
+            "value": 0.485,
+            "iqr": [
+              0.479,
+              0.5
+            ],
+            "status": "monitor",
+            "meaning": "ML balance: 0=lateral, 1=medial at peak load."
+          }
+        ],
+        "what_is_going_well": [
+          {
+            "title": "Repeatable bracing timing",
+            "claim": "Front-foot contact time is stable across deliveries.",
+            "why_it_matters": "Stable timing supports consistent bracing and release mechanics.",
+            "evidence": {
+              "phase": "FFC",
+              "metrics": [
+                {
+                  "metric": "ct_s",
+                  "value": 0.215,
+                  "unit": "s",
+                  "note": "stability 0.000"
+                }
+              ],
+              "confidence": "high"
+            },
+            "keep_doing": [
+              "Maintain current rhythm and front-leg timing."
+            ]
+          }
+        ],
+        "what_is_costing_you": [
+          {
+            "title": "Monitor: Bracing stiffness fading late spell",
+            "claim": "Loading-rate proxy drops in the last third of the spell.",
+            "why_it_matters": "Reduced bracing can leak momentum and reduce ball speed.",
+            "evidence": {
+              "phase": "FFC",
+              "metrics": [
+                {
+                  "metric": "loading_rate_proxy",
+                  "delta_pct": -5.2,
+                  "unit": "%",
+                  "note": "slope=-0.8896, R²=0.14"
+                }
+              ],
+              "confidence": "low"
+            },
+            "risk_if_ignored": "Momentum loss and technique breakdown late.",
+            "what_to_try": [
+              "Front-leg brace intent in walk-throughs",
+              "Manage spell length"
+            ]
+          },
+          {
+            "title": "Monitor: Force output declining (fatigue signature)",
+            "claim": "Force proxy at FFC decreases from start to end of spell.",
+            "why_it_matters": "Lower output reduces bowling effectiveness and increases compensations.",
+            "evidence": {
+              "phase": "FFC",
+              "metrics": [
+                {
+                  "metric": "impulse_proxy",
+                  "delta_pct": -1.3,
+                  "unit": "%",
+                  "note": "slope=-420.2384, R²=0.04"
+                }
+              ],
+              "confidence": "low"
+            },
+            "risk_if_ignored": "Speed drops and compensations rise.",
+            "what_to_try": [
+              "Conditioning/rest block",
+              "Protect rhythm with technique safeguard"
+            ]
+          },
+          {
+            "title": "Monitor: Force output declining (fatigue signature)",
+            "claim": "Force proxy at FFC decreases from start to end of spell.",
+            "why_it_matters": "Lower output reduces bowling effectiveness and increases compensations.",
+            "evidence": {
+              "phase": "FFC",
+              "metrics": [
+                {
+                  "metric": "peak_proxy",
+                  "delta_pct": -1.1,
+                  "unit": "%",
+                  "note": "slope=-9.5924, R²=0.05"
+                }
+              ],
+              "confidence": "low"
+            },
+            "risk_if_ignored": "Speed drops and compensations rise.",
+            "what_to_try": [
+              "Conditioning/rest block",
+              "Protect rhythm with technique safeguard"
+            ]
+          }
+        ],
+        "what_to_do_next": [
+          {
+            "priority": 1,
+            "action": "Reinforce stiffness and manage spell length.",
+            "why": "Sustain bracing/drive late.",
+            "targets_next_session": [
+              {
+                "metric": "loading_rate_proxy",
+                "target": "Last-third within -5% of first-third"
+              }
+            ],
+            "drills": [
+              {
+                "name": "Front Leg Brace Walk-throughs",
+                "dosage": "2-3 x 6-8 deliveries"
+              }
+            ]
+          },
+          {
+            "priority": 2,
+            "action": "Add conditioning/rest and protect rhythm.",
+            "why": "Preserve force output.",
+            "targets_next_session": [
+              {
+                "metric": "impulse_proxy",
+                "target": "Last-third within -3% of first-third"
+              }
+            ],
+            "drills": [
+              {
+                "name": "Active Recovery Walk",
+                "dosage": "1 x 5 mins"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "data_confidence": {
+      "baseline_confidence": "high",
+      "trend_confidence": "high",
+      "usable_deliveries": 18,
+      "total_deliveries": 18
+    }
+  },
+  "analytics_raw": {
+    "baselines_by_phase": {
+      "RUNUP_LAST": {
+        "peak_proxy": {
+          "p25": 10969.5,
+          "p50": 11079.0,
+          "p75": 11164.25,
+          "p90": 11291.300000000001
+        },
+        "loading_rate_proxy": {
+          "p25": 127.6062091503268,
+          "p50": 133.91801470588234,
+          "p75": 146.48333333333335,
+          "p90": 150.51333333333332,
+          "p99": 173.24413333333334
+        },
+        "impulse_proxy": {
+          "p25": 334686.75,
+          "p50": 336170.5,
+          "p75": 342488.0,
+          "p90": 344563.1
+        },
+        "ct_s": {
+          "p25": 0.165,
+          "p50": 0.165,
+          "p75": 0.165,
+          "p90": 0.165
+        },
+        "ml_balance_0_1": {
+          "p25": 0.4903173209701253,
+          "p50": 0.4981568838042477,
+          "p75": 0.5103019702207925,
+          "p90": 0.5182649124333166
+        },
+        "heel_share_0_1": {
+          "p25": 0.425539923075691,
+          "p50": 0.44105381747909533,
+          "p75": 0.4811275217187815,
+          "p90": 0.48988547294200274
+        }
+      },
+      "BFC": {
+        "peak_proxy": {
+          "p25": 13410.25,
+          "p50": 13474.5,
+          "p75": 13549.25,
+          "p90": 13658.5
+        },
+        "loading_rate_proxy": {
+          "p25": 129.43928571428572,
+          "p50": 135.73000000000002,
+          "p75": 140.19526315789474,
+          "p90": 145.61461988304094,
+          "p99": 149.7014619883041
+        },
+        "impulse_proxy": {
+          "p25": 486194.75,
+          "p50": 487264.5,
+          "p75": 489812.5,
+          "p90": 492331.0
+        },
+        "ct_s": {
+          "p25": 0.205,
+          "p50": 0.205,
+          "p75": 0.205,
+          "p90": 0.205
+        },
+        "ml_balance_0_1": {
+          "p25": 0.4738206555494126,
+          "p50": 0.49273230706159477,
+          "p75": 0.5082773062636521,
+          "p90": 0.5164267150578992
+        },
+        "heel_share_0_1": {
+          "p25": 0.418329942329344,
+          "p50": 0.4439609529958365,
+          "p75": 0.4622308219411511,
+          "p90": 0.48840614707714636
+        }
+      },
+      "FFC": {
+        "peak_proxy": {
+          "p25": 14702.25,
+          "p50": 14778.0,
+          "p75": 14811.75,
+          "p90": 15017.5
+        },
+        "loading_rate_proxy": {
+          "p25": 132.60909090909092,
+          "p50": 134.0909090909091,
+          "p75": 147.77863636363637,
+          "p90": 158.16,
+          "p99": 163.59599999999998
+        },
+        "impulse_proxy": {
+          "p25": 546988.25,
+          "p50": 551964.0,
+          "p75": 558322.0,
+          "p90": 564492.5
+        },
+        "ct_s": {
+          "p25": 0.215,
+          "p50": 0.215,
+          "p75": 0.215,
+          "p90": 0.2175
+        },
+        "ml_balance_0_1": {
+          "p25": 0.4789445594228441,
+          "p50": 0.48489427982602606,
+          "p75": 0.49954206048426775,
+          "p90": 0.5078400726941834
+        },
+        "heel_share_0_1": {
+          "p25": 0.40887666965007413,
+          "p50": 0.41524845751874584,
+          "p75": 0.4590696392700605,
+          "p90": 0.49543428611994345
+        }
+      }
+    },
+    "trends_by_phase": {
+      "RUNUP_LAST": {
+        "ct_s": {
+          "slope": -0.000271,
+          "r_squared": 0.031,
+          "direction": "stable"
+        },
+        "peak_proxy": {
+          "slope": -9.060888,
+          "r_squared": 0.103,
+          "direction": "decreasing"
+        },
+        "ml_balance_0_1": {
+          "slope": 0.000111,
+          "r_squared": 0.004,
+          "direction": "stable"
+        },
+        "loading_rate_proxy": {
+          "slope": -0.059794,
+          "r_squared": 0.001,
+          "direction": "decreasing"
+        },
+        "impulse_proxy": {
+          "slope": -737.568627,
+          "r_squared": 0.049,
+          "direction": "decreasing"
+        },
+        "trend_confidence": "high",
+        "_n_balls": 18
+      },
+      "BFC": {
+        "ct_s": {
+          "slope": 0.0,
+          "r_squared": 0.0,
+          "direction": "stable"
+        },
+        "peak_proxy": {
+          "slope": -4.671827,
+          "r_squared": 0.024,
+          "direction": "decreasing"
+        },
+        "ml_balance_0_1": {
+          "slope": -0.000109,
+          "r_squared": 0.001,
+          "direction": "stable"
+        },
+        "loading_rate_proxy": {
+          "slope": -0.827229,
+          "r_squared": 0.172,
+          "direction": "decreasing"
+        },
+        "impulse_proxy": {
+          "slope": -131.338493,
+          "r_squared": 0.011,
+          "direction": "decreasing"
+        },
+        "trend_confidence": "high",
+        "_n_balls": 18
+      },
+      "FFC": {
+        "ct_s": {
+          "slope": -3.6e-05,
+          "r_squared": 0.027,
+          "direction": "stable"
+        },
+        "peak_proxy": {
+          "slope": -9.592363,
+          "r_squared": 0.046,
+          "direction": "decreasing"
+        },
+        "ml_balance_0_1": {
+          "slope": 0.000133,
+          "r_squared": 0.002,
+          "direction": "stable"
+        },
+        "loading_rate_proxy": {
+          "slope": -0.889578,
+          "r_squared": 0.135,
+          "direction": "decreasing"
+        },
+        "impulse_proxy": {
+          "slope": -420.23839,
+          "r_squared": 0.045,
+          "direction": "decreasing"
+        },
+        "trend_confidence": "high",
+        "_n_balls": 18
+      }
+    },
+    "baselines": {
+      "peak_proxy": {
+        "p25": 14702.25,
+        "p50": 14778.0,
+        "p75": 14811.75,
+        "p90": 15017.5
+      },
+      "loading_rate_proxy": {
+        "p25": 132.60909090909092,
+        "p50": 134.0909090909091,
+        "p75": 147.77863636363637,
+        "p90": 158.16,
+        "p99": 163.59599999999998
+      },
+      "impulse_proxy": {
+        "p25": 546988.25,
+        "p50": 551964.0,
+        "p75": 558322.0,
+        "p90": 564492.5
+      },
+      "ct_s": {
+        "p25": 0.215,
+        "p50": 0.215,
+        "p75": 0.215,
+        "p90": 0.2175
+      },
+      "ml_balance_0_1": {
+        "p25": 0.4789445594228441,
+        "p50": 0.48489427982602606,
+        "p75": 0.49954206048426775,
+        "p90": 0.5078400726941834
+      },
+      "heel_share_0_1": {
+        "p25": 0.40887666965007413,
+        "p50": 0.41524845751874584,
+        "p75": 0.4590696392700605,
+        "p90": 0.49543428611994345
+      }
+    },
+    "trends": {
+      "ct_s": {
+        "slope": -3.6e-05,
+        "r_squared": 0.027,
+        "direction": "stable"
+      },
+      "peak_proxy": {
+        "slope": -9.592363,
+        "r_squared": 0.046,
+        "direction": "decreasing"
+      },
+      "ml_balance_0_1": {
+        "slope": 0.000133,
+        "r_squared": 0.002,
+        "direction": "stable"
+      },
+      "loading_rate_proxy": {
+        "slope": -0.889578,
+        "r_squared": 0.135,
+        "direction": "decreasing"
+      },
+      "impulse_proxy": {
+        "slope": -420.23839,
+        "r_squared": 0.045,
+        "direction": "decreasing"
+      },
+      "trend_confidence": "high",
+      "_n_balls": 18
+    }
+  },
+  "qc_mode": "strict"
+}
