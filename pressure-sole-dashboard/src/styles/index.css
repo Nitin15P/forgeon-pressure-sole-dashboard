@@ -334,6 +334,10 @@ p {
     gap: var(--spacing-lg);
 }
 
+.gap-xs {
+    gap: var(--spacing-xs);
+}
+
 /* Spacing Utilities */
 .mb-sm {
     margin-bottom: var(--spacing-sm);
@@ -351,6 +355,10 @@ p {
     margin-bottom: var(--spacing-xl);
 }
 
+.mb-xs {
+    margin-bottom: var(--spacing-xs);
+}
+
 .mt-sm {
     margin-top: var(--spacing-sm);
 }
@@ -365,6 +373,10 @@ p {
 
 .mt-xl {
     margin-top: var(--spacing-xl);
+}
+
+.mt-xs {
+    margin-top: var(--spacing-xs);
 }
 
 /* Text Utilities */
